@@ -21,8 +21,8 @@ CSS3 Mixins for SASS
 	border-bottom-left-radius: $bottomLeft;
 }
 
-@mixin textShadow($x-axis,$y-axis,$casting,$color){
-	text-shadow: $x-axis,$y-axis,$casting,$color;	
+@mixin textShadow($x-axis, $y-axis, $casting, $color){
+	textShadow: $x-axis $y-axis $casting $color;	
 }
 
 @mixin shadow( $off-y, $off-x, $blur, $color) {

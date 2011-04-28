@@ -9,18 +9,32 @@ Author_URL:
 
 @import "reset";
 @import "lib/css3";
-@import "typography";
 @import "lib/tables";
-@import "lib/mediaqueries";
 
 /* --------------------------------------------------------------
 
-Colors
+Core Variables.
+Here you can declare the core variables for your project.
+All content will inherit from these.
 
 -------------------------------------------------------------- */
 
-$black:#000;
-$grey: #555;
+$width: 960px;
+$gutterWidth: 20px;
+
+//Fonts
+
+$fontFamily: "Gill sans", "Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
+$fontSize: 14px;
+$baseLine: 20px;
+
+//Colors
+
+$backgroundColor: #FFF;
+$mainColor: #000;
+$linkColor: #1c7fc4;
+
+@import "typography";
 
 /* --------------------------------------------------------------
 
@@ -28,11 +42,6 @@ General Classes
 
 -------------------------------------------------------------- */
 
-.serif {
-	font-family: $serif1;
-	font-style:italic;
-	color:$grey;
-}
 .clear {
 	clear: both;
 }
@@ -69,10 +78,10 @@ HTML5
 -------------------------------------------------------------- */
 
 section {
-	margin-bottom: 20px;
-	overflow:hidden;
-	border-bottom:1px solid #CCC;
-	padding-bottom:10px;
+	margin-bottom: $baseLine;
+	overflow: hidden;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: $baseLine/2;
 }
 
 /* --------------------------------------------------------------
@@ -82,12 +91,12 @@ Layout
 -------------------------------------------------------------- */
 
 body {
-	background: #FFF;
+	background: $backgroundColor;
 }
 
 #container {
-	width: 940px;
-	margin: 20px auto;
+	width: $width;
+	margin: 40px auto;
 	overflow: hidden;
 }
 
@@ -101,25 +110,37 @@ Columns
 	margin-right: 20px;
 	float: left
 }
+
+//This will break in IE < 9 so add .last to your columns if that's an issue
+.col:last-child {
+	margin-right: 0;
+}
+
 .whole {
-	width: 940px;
+	width: $width;
 	margin-right: 0;
 }
 .half {
-	width: 460px
+	width: ($width - (1 * $gutterWidth)) / 2;
 }
 .third {
-	width: 300px
+	width: ($width - (2 * $gutterWidth)) / 3;
 }
 .fourth {
-	width: 220px
+	width: ($width - (3 * $gutterWidth)) / 4;
 }
 .fifth {
-	width: 172px
+	width: ($width - (4 * $gutterWidth)) / 5;
 }
 .sixth {
-	width: 140px
+	width: ($width - (5 * $gutterWidth)) / 6;
 }
-.last {
-	margin-right: 0
-}
+
+/* --------------------------------------------------------------
+
+Media Query Import
+
+-------------------------------------------------------------- */
+
+@import "lib/mediaqueries";
+

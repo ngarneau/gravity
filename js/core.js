@@ -1,7 +1,8 @@
 /*
 
 Core Javascript
-Enables ECMA5 Javascript
+Enables ECMA5 Javascript and some other core functions. 
+See docs for further details.
 
 */
 
