@@ -1,6 +1,6 @@
 #Gravity CSS Framework
-AUTHOR: Owain Lewis
-URL: [www.owainlewis.com](http://www.owainlewis.com/)
+AUTHORS: Owain Lewis, Ollie Wells
+URL: [www.owainlewis.com](http://www.owainlewis.com/), [www.twentysixtwelve.co.uk](http://www.twentysixtwelve.co.uk)
 
 Creative Commons (cc) Attribution 3.0
 http://creativecommons.org/licenses/by/3.0/us/
