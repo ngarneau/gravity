@@ -46,49 +46,45 @@ The framework comes with some pre built defaults to help you get started. You ca
 $width: 960px;
 $gutterWidth: 20px;
 
-//Fonts
+$fontFamily
+$fontSize
+$baseLine
 
-$fontFamily: "Gill sans", "Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
-$fontSize: 14px;
-$baseLine: 20px;
-
-//Colors
-
-$backgroundColor: #FFF;
-$mainColor: #000;
-$linkColor: #1c7fc4;
+$backgroundColor
+$mainColor
+$linkColor
 
 CSS column sizes are automatically generated from the width and gutters you define.
 
-.col {
-	margin-right: 20px;
-	float: left
-}
+	.col {
+		margin-right: 20px;
+		float: left
+	}
 
-//This will break in IE < 9 so add .last to your columns if that's an issue
-.col:last-child {
-	margin-right: 0;
-}
+	//This will break in IE < 9 so add .last to your columns if that's an issue
+	.col:last-child {
+		margin-right: 0;
+	}
 
-.whole {
-	width: $width;
-	margin-right: 0;
-}
-.half {
-	width: ($width - (1 * $gutterWidth)) / 2;
-}
-.third {
-	width: ($width - (2 * $gutterWidth)) / 3;
-}
-.fourth {
-	width: ($width - (3 * $gutterWidth)) / 4;
-}
-.fifth {
-	width: ($width - (4 * $gutterWidth)) / 5;
-}
-.sixth {
-	width: ($width - (5 * $gutterWidth)) / 6;
-}
+	.whole {
+		width: $width;
+		margin-right: 0;
+	}
+	.half {
+		width: ($width - (1 * $gutterWidth)) / 2;
+	}
+	.third {
+		width: ($width - (2 * $gutterWidth)) / 3;
+	}
+	.fourth {
+		width: ($width - (3 * $gutterWidth)) / 4;
+	}
+	.fifth {
+		width: ($width - (4 * $gutterWidth)) / 5;
+	}
+	.sixth {
+		width: ($width - (5 * $gutterWidth)) / 6;
+	}
 
 That's it. Enjoy. If you have any questions about this framework email owain@owainlewis.com.
 
