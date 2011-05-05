@@ -8,6 +8,7 @@ Media queries for common devices
 /* iPad [portrait + landscape] */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	
 	body{
 		
 	}
@@ -16,39 +17,9 @@ Media queries for common devices
 /* iPhone [portrait + landscape] */
 @media screen and (max-width: 480px) {
 	
-	$deviceWidth: 420px;
-	#container {
-		width: 420px;
-		padding: 20px;
+	body{
+		
 	}
-
-	.col {
-		display: block;
-		margin: 0;
-		clear: both;
-	}
-
-	.whole {
-		width: $deviceWidth;
-		margin-right: 0;
-	}
-	.half {
-		width: $deviceWidth;
-	}
-	.third {
-		width: $deviceWidth;
-	}
-	.fourth {
-		width: $deviceWidth;
-	}
-	.fifth {
-		width: $deviceWidth;
-	}
-	.sixth {
-		width: $deviceWidth;
-	}
-
-
 }
 
 /*	iPhone4 retina display media query.

@@ -63,24 +63,24 @@ ul, ol {
 }
 ul {
 	list-style-type: circle;
-	padding-left:14px;
+	padding-left:$fontSize;
 }
 ol {
 	list-style-type: decimal;
 }
 li {
-	margin-bottom: 5px;
+	margin-bottom: $baseLine/2;
 }
 
 dl {
-	margin-bottom: 10px;
+	margin-bottom: $baseLine;
 }
 dl dt {
 	font-weight: bold;
-	margin-bottom: 10px;
+	margin-bottom: $baseLine;
 }
 dl dd {
-	margin-bottom: 10px;
+	margin-bottom: $baseLine/2;
 }
 
 abbr, acronym {
@@ -122,19 +122,16 @@ pre, code, tt {
 }
 tt {
 	display: block;
-	margin: 10px 0;
 	line-height: 1.5;
 }
 
 q {
 	font-style: italic;
-	font-size: 18px;
 	font-weight: bold;
 }
 cite {
 	display: block;
 	font-weight: bold;
-	margin:10px 0;
 }
 
 
