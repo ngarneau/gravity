@@ -1,11 +1,11 @@
-#Gravity CSS Framework
+#Gravity Framework
 AUTHORS: Owain Lewis, Ollie Wells
 URL: [www.owainlewis.com](http://www.owainlewis.com/), [www.twentysixtwelve.co.uk](http://www.twentysixtwelve.co.uk)
 
 Creative Commons (cc) Attribution 3.0
 http://creativecommons.org/licenses/by/3.0/us/
 
-www.GravityFramework.com
+http://GravityFramework.com
 
 Inspired by many great people and projects.
 
@@ -13,18 +13,18 @@ A powerful boilerplate framework for building HTML5 websites that uses SASS as t
 
 ##Features
 
-1. HTML5 ready
-2. SASS support
-3. Built for rapid prototyping
-4. Media framework
-5. ECMA5 javascript shim
-6. Shims for HTML5 support
-7. Pre built css3 mixins
-8. Automatic baseline for typography
-9. Automatic columns sizes based on a default container size
-10. Javascript ECMA5 script for all browsers
-11. Default form styling.
-12. Easily extendible.
+*HTML5 ready
+*SASS support
+*Built for rapid prototyping
+*Media query defaults
+*ECMA5 javascript shim
+*Shims for HTML5 support
+*Pre built css3 mixins
+*Automatic baseline for typography
+*Automatic columns sizes based on a default container size
+*Javascript ECMA5 script for all browsers
+*Default form styling.
+*Easily extendible.
 
 Mobile support/version coming soon.
 
@@ -43,16 +43,14 @@ MAC OSX
 
 The framework comes with some pre built defaults to help you get started. You can edit these in any way you wish. 
 
-$width: 960px;
-$gutterWidth: 20px;
-
-$fontFamily
-$fontSize
-$baseLine
-
-$backgroundColor
-$mainColor
-$linkColor
+*$width
+*$gutterWidth
+*$fontFamily
+*$fontSize
+*$baseLine
+*$backgroundColor
+*$mainColor
+*$linkColor
 
 CSS column sizes are automatically generated from the width and gutters you define.
 

@@ -63,7 +63,7 @@ ul, ol {
 }
 ul {
 	list-style-type: circle;
-	padding-left:$fontSize;
+	padding-left:$fontSize + 2;
 }
 ol {
 	list-style-type: decimal;
