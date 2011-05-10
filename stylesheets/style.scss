@@ -26,7 +26,7 @@ $gutterWidth: 20px;
 
 //Fonts
 
-$fontFamily: "Gill sans", "Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
+$fontFamily: "Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
 $fontSize: 14px;
 $baseLine: 20px;
 
@@ -109,7 +109,7 @@ Columns
 -------------------------------------------------------------- */
 
 .col {
-	margin-right: 20px;
+	margin-right: $gutterWidth;
 	float: left
 }
 
