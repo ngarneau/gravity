@@ -3,13 +3,14 @@ AUTHORS: Owain Lewis, Ollie Wells
 URL: [www.owainlewis.com](http://www.owainlewis.com/), [www.twentysixtwelve.co.uk](http://www.twentysixtwelve.co.uk)
 
 Creative Commons (cc) Attribution 3.0
-http://creativecommons.org/licenses/by/3.0/us/
 
 http://GravityFramework.com
 
 Inspired by many great people and projects.
 
-A powerful boilerplate framework for building HTML5 websites that uses SASS as the core styling engine. This framework will change the way you build websites.
+A powerful boilerplate framework for building HTML5 websites that uses SASS as the core styling engine. 
+Gravity will drastically reduce the time needed to take a design from concept to working model. It enforces best practices at every stage.
+In my opinion, Gravity based websites are easier to maintain, and therefore this framework can help you drastically improve your teams workflow and profitability.
 
 ##Features
 
@@ -37,7 +38,7 @@ MAC OSX
 1. mkdir myproject
 2. cd myproject
 3. Copy the framework into your new project directory
-4. Run this command: sass --watch stylesheets/style.scss:stylesheets/style.css --style compressed
+4. Run this command in the terminal: sass --watch stylesheets/style.scss:stylesheets/style.css --style nested
 
 //Setup
 
@@ -49,7 +50,7 @@ The framework comes with some pre built defaults to help you get started. You ca
 *$fontSize
 *$baseLine
 *$backgroundColor
-*$mainColor
+*$textColor
 *$linkColor
 
 CSS column sizes are automatically generated from the width and gutters you define.
