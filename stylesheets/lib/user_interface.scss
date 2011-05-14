@@ -1,0 +1,33 @@
+/* --------------------------------------------------------------
+
+USER INTERFACE
+
+-------------------------------------------------------------- */
+
+/*
+
+Button Colors
+
+*/
+
+$buttons: #333;
+
+.button {
+	@include rounded(10px);
+	@include gradient(lighten($buttons,30%),$buttons);
+	cursor: pointer;
+	color: #FFF;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding: 10px 20px;
+	margin: 0 0 20px 0;
+
+	&:hover {
+		@include gradient(lighten($buttons,40%),lighten($buttons,10%));
+	}
+
+}
+
+
+

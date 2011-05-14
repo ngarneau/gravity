@@ -1,0 +1,42 @@
+/* --------------------------------------------------------------
+
+FORMS 
+
+-------------------------------------------------------------- */
+
+*::-moz-focus-inner {
+	border: 0 none;
+	padding: 0;
+}
+
+
+form {
+
+	legend {
+		font-weight: bold;
+		display: block;
+		margin-bottom: $baseLine;
+	}
+
+}
+
+input,textarea {
+	padding: 5px;
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 2px;
+	border: 1px solid $border;
+}
+
+input {
+}
+
+textarea {
+	resize: none;
+	min-height: 200px;
+}
+
+button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
+	box-shadow: 0 0 4px #0066FF;
+	z-index: 1;
+}

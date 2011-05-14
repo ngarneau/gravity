@@ -13,7 +13,7 @@ See docs for further details.
     "use strict";
 
     window.log = function() {
-        if (this.log) {
+        if (typeof console.log !== 'undefined') {
             var string;
             var i,
             max;

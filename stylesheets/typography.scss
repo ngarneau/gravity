@@ -1,6 +1,6 @@
 /* --------------------------------------------------------------
 
-TYPOGRAPHY CSS
+TYPOGRAPHY
 
 -------------------------------------------------------------- */
 
@@ -9,12 +9,12 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
 	font-size: $fontSize;
 	line-height: $baseLine;
 	font-family: $fontFamily;
-	color: $mainColor;
+	color: $textColor;
 }
 
 /* --------------------------------------------------------------
 
-Headings
+HEADINGS
 
 -------------------------------------------------------------- */
 
@@ -51,7 +51,7 @@ h6 {
 
 /* --------------------------------------------------------------
 
-Page Elements
+PAGE ELEMENTS
 
 -------------------------------------------------------------- */
 
@@ -96,9 +96,11 @@ del {
 a {
 	color: $linkColor;
 	text-decoration: none;
+	/* Force a hand pointer for all links */
+	cursor:pointer;
 }
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 blockquote {
@@ -137,7 +139,7 @@ cite {
 
 /* --------------------------------------------------------------
 
-Images
+IMAGES
 
 -------------------------------------------------------------- */
 

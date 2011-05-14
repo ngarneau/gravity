@@ -1,6 +1,8 @@
 /* --------------------------------------------------------------
 
 GRAVITY FRAMEWORK
+www.owainlewis.com
+version 1.0 
 
 STYLE SCSS
 Author:
@@ -11,6 +13,7 @@ Author_URL:
 
 @import "reset";
 @import "lib/css3";
+@import "lib/user_interface";
 @import "lib/tables";
 
 /* --------------------------------------------------------------
@@ -26,24 +29,45 @@ $gutterWidth: 20px;
 
 //Fonts
 
-$fontFamily: "Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
+$fontFamily: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 $fontSize: 14px;
 $baseLine: 20px;
 
 //Colors
 
 $backgroundColor: #FFF;
-$mainColor: #000;
+$textColor: #000;
 $linkColor: #1c7fc4;
+$border:#CCC;
 
 @import "typography";
 
 /* --------------------------------------------------------------
 
-General Classes
+GENERAL CLASSES
 
 -------------------------------------------------------------- */
 
+.small {
+	width: $width/10;
+}
+
+.medium {
+	width: $width/6;
+}
+
+.large {
+	width: $width/2;
+}
+
+.full {
+	width: $width;
+}
+
+.wrap {
+	width: $width;
+	margin: 0 auto;
+}
 .clear {
 	clear: both;
 }
@@ -82,13 +106,12 @@ HTML5
 section {
 	margin-bottom: $baseLine;
 	overflow: hidden;
-	border-bottom: 1px solid #CCC;
 	padding-bottom: $baseLine/2;
 }
 
 /* --------------------------------------------------------------
 
-Layout
+LAYOUT
 
 -------------------------------------------------------------- */
 
@@ -104,7 +127,7 @@ body {
 
 /* --------------------------------------------------------------
 
-Columns
+COLUMNS
 
 -------------------------------------------------------------- */
 
@@ -138,11 +161,6 @@ Columns
 	width: ($width - (5 * $gutterWidth)) / 6;
 }
 
-/* --------------------------------------------------------------
-
-Media Query Import
-
--------------------------------------------------------------- */
-
-@import "lib/mediaqueries";
+@import "lib/forms";
+@import "lib/media_queries";
 

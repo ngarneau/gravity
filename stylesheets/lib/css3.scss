@@ -1,6 +1,13 @@
 /* --------------------------------------------------------------
 
-CSS3 Mixins for SASS
+CSS3 MIXINS
+
+Example of how to use the css3 mixins
+
+div {
+@include rounded (10px);
+@include gradient(#333,#111);
+}
 
 -------------------------------------------------------------- */
 
@@ -21,8 +28,8 @@ CSS3 Mixins for SASS
 	border-bottom-left-radius: $bottomLeft;
 }
 
-@mixin textShadow($x-axis, $y-axis, $casting, $color){
-	textShadow: $x-axis $y-axis $casting $color;	
+@mixin textShadow($x-axis, $y-axis, $casting, $color) {
+	textShadow: $x-axis $y-axis $casting $color;
 }
 
 @mixin shadow( $off-y, $off-x, $blur, $color) {
