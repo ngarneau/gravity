@@ -12,8 +12,6 @@ Project:
 
 (function(){
 
-	// Javascript
-	
 }());
 
 
