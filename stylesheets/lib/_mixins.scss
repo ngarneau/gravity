@@ -1,5 +1,23 @@
 /* --------------------------------------------------------------
 
+CORE MIXINS
+
+-------------------------------------------------------------- */
+
+@mixin clearfix {
+  display: inline-block;
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  * html & { height: 1px }
+}
+
+/* --------------------------------------------------------------
+
 CSS3 MIXINS
 
 Example of how to use the css3 mixins
@@ -43,7 +61,7 @@ div {
 	background-image: -moz-linear-gradient(top, $baseColor, $toColor); /* FF3.6 */
 	background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, $baseColor),color-stop(1, $toColor)); /* Saf4+, Chrome */
 	background-image: linear-gradient(top,$baseColor, $toColor);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='$baseColor', EndColorStr='$toColor'); /* IE */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=$baseColor, EndColorStr=$toColor); /* IE */
 }
 
 @mixin trasition($property, $duration:0.3s, $function: ease-out) {

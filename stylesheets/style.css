@@ -2,7 +2,7 @@
 
 GRAVITY FRAMEWORK
 www.owainlewis.com
-version 1.0 
+version 1.1 
 
 STYLE SCSS
 Author:
@@ -104,6 +104,11 @@ button, input, select, textarea {
 
 /* --------------------------------------------------------------
 
+CORE MIXINS
+
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+
 CSS3 MIXINS
 
 Example of how to use the css3 mixins
@@ -134,7 +139,7 @@ Button Colors
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, gray), color-stop(1, #333333));
   /* Saf4+, Chrome */
   background-image: linear-gradient(top, gray, #333333);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='$baseColor', EndColorStr='$toColor');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=$baseColor, EndColorStr=$toColor);
   /* IE */
   cursor: pointer;
   color: #FFF;
@@ -150,7 +155,7 @@ Button Colors
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999), color-stop(1, #4d4d4d));
     /* Saf4+, Chrome */
     background-image: linear-gradient(top, #999999, #4d4d4d);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='$baseColor', EndColorStr='$toColor');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=$baseColor, EndColorStr=$toColor);
     /* IE */ }
 
 /* --------------------------------------------------------------
@@ -184,7 +189,7 @@ caption {
 
 /* --------------------------------------------------------------
 
-Core Variables.
+SETTINGS
 Here you can declare the core variables for your project.
 All content will inherit from these.
 
@@ -196,10 +201,10 @@ TYPOGRAPHY
 -------------------------------------------------------------- */
 /* Default fonts and colors. */
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
-  font-size: 14px;
   line-height: 20px;
-  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
-  color: black; }
+  font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+  color: black;
+  font-size: 14px; }
 
 /* --------------------------------------------------------------
 
@@ -246,14 +251,14 @@ ul, ol {
   margin-bottom: 20px; }
 
 ul {
-  list-style-type: circle;
-  padding-left: 16px; }
+  list-style-type: decimal; }
 
 ol {
   list-style-type: decimal; }
 
 li {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  list-style: none; }
 
 dl {
   margin-bottom: 20px; }
@@ -326,19 +331,19 @@ GENERAL CLASSES
 
 -------------------------------------------------------------- */
 .small {
-  width: 96px; }
+  width: 94px; }
 
 .medium {
-  width: 160px; }
+  width: 156.667px; }
 
 .large {
-  width: 480px; }
+  width: 470px; }
 
 .full {
-  width: 960px; }
+  width: 940px; }
 
 .wrap {
-  width: 960px;
+  width: 940px;
   margin: 0 auto; }
 
 .clear {
@@ -357,28 +362,11 @@ GENERAL CLASSES
 .invisible {
   visibility: hidden; }
 
-.clearfix:before, .clearfix:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  overflow: hidden; }
-
-.clearfix:after {
-  clear: both; }
-
-.clearfix {
-  zoom: 1; }
-
 /* --------------------------------------------------------------
 
-HTML5
+FUNCTIONS
 
 -------------------------------------------------------------- */
-section {
-  margin-bottom: 20px;
-  overflow: hidden;
-  padding-bottom: 10px; }
-
 /* --------------------------------------------------------------
 
 COLUMNS
@@ -392,23 +380,23 @@ COLUMNS
   margin-right: 0; }
 
 .whole {
-  width: 960px;
+  width: 940px;
   margin-right: 0; }
 
 .half {
-  width: 470px; }
+  width: 460px; }
 
 .third {
-  width: 306.667px; }
+  width: 300px; }
 
 .fourth {
-  width: 225px; }
+  width: 220px; }
 
 .fifth {
-  width: 176px; }
+  width: 172px; }
 
 .sixth {
-  width: 143.333px; }
+  width: 140px; }
 
 /* --------------------------------------------------------------
 
@@ -445,6 +433,6 @@ STRUCTURE
 
 -------------------------------------------------------------- */
 #container {
-  width: 960px;
+  width: 940px;
   margin: 40px auto;
   overflow: hidden; }

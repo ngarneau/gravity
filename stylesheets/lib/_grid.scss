@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------
+
+COLUMNS
+
+-------------------------------------------------------------- */
+
+.col {
+	margin-right: $gutter-width;
+	float: left
+}
+
+//This will break in IE < 9 so add .last to your columns if that's an issue
+.col:last-child {
+	margin-right: 0;
+}
+
+.whole {
+	width: $grid-width;
+	margin-right: 0;
+}
+.half {
+	width: ($grid-width - (1 * $gutter-width)) / 2;
+}
+.third {
+	width: ($grid-width - (2 * $gutter-width)) / 3;
+}
+.fourth {
+	width: ($grid-width - (3 * $gutter-width)) / 4;
+}
+.fifth {
+	width: ($grid-width - (4 * $gutter-width)) / 5;
+}
+.sixth {
+	width: ($grid-width - (5 * $gutter-width)) / 6;
+}

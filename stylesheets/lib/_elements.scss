@@ -1,0 +1,97 @@
+/* --------------------------------------------------------------
+
+PAGE ELEMENTS
+
+-------------------------------------------------------------- */
+
+p {
+	margin-bottom: $baseline;
+}
+ul, ol {
+	margin-bottom: $baseline;
+}
+ul {
+	list-style-type: decimal;
+}
+ol {
+	list-style-type: decimal;
+}
+li {
+	margin-bottom: $baseline/2;
+	list-style:none;
+}
+
+dl {
+	margin-bottom: $baseline;
+}
+dl dt {
+	font-weight: bold;
+	margin-bottom: $baseline/2;
+}
+dl dd {
+	margin-bottom: $baseline/2;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #000;
+}
+address {
+	font-style: italic;
+}
+del {
+	color: #000;
+}
+
+a {
+	color: $link-color;
+	text-decoration: none;
+	/* Force a hand pointer for all links */
+	cursor:pointer;
+}
+a:hover {
+	text-decoration: none;
+}
+
+blockquote {
+}
+strong {
+	font-weight: bold;
+}
+em, dfn {
+	font-style: italic;
+}
+dfn {
+	font-weight: bold;
+}
+pre, code {
+	margin: 10px 0;
+	white-space: pre;
+}
+pre, code, tt {
+	font: 1em monospace;
+	line-height: 1.5;
+}
+tt {
+	display: block;
+	line-height: 1.5;
+}
+
+q {
+	font-style: italic;
+	font-weight: bold;
+}
+cite {
+	display: block;
+	font-weight: bold;
+}
+
+
+/* --------------------------------------------------------------
+
+IMAGES
+
+-------------------------------------------------------------- */
+
+img {
+	margin-bottom: 20px;
+}

@@ -1,7 +1,7 @@
-/*
+#Main JS
 
-Main.Coffee
-coffee --watch --compile main.coffee
+class Main () ->
+	constructor() ->
+		
 
-*/
 

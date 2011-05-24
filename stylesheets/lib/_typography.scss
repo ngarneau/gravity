@@ -1,0 +1,52 @@
+/* --------------------------------------------------------------
+
+TYPOGRAPHY
+
+-------------------------------------------------------------- */
+
+/* Default fonts and colors. */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
+	line-height: $baseline;
+	font-family: $font-family;
+	color: $text-color;
+	font-size:$font-size;
+}
+
+/* --------------------------------------------------------------
+
+HEADINGS
+
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	margin-bottom: $baseline;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 1;
+}
+h2 {
+	font-size: 35px;
+	line-height: 1
+}
+h3 {
+	font-size: 30px;
+	line-height: 1
+}
+h4 {
+	font-size: 25px;
+	line-height: 1
+}
+h5 {
+	font-size: 20px;
+	line-height: 1
+}
+h6 {
+	font-size: 15px;
+	line-height: 1
+}
+
+
+@import "_elements";
