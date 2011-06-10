@@ -20,23 +20,45 @@ form {
 
 }
 
-input,textarea {
+@mixin input(){
 	padding: 5px;
 	display: block;
 	margin-bottom: 20px;
 	margin-left: 2px;
-	border: 1px solid $border;
+	border: 1px solid $borders;	
 }
 
-input {
+input[type='text'] {
+	@include input();
+	width:98%;
+}
+
+input[type="submit"] {
+    background: lighten($black,20%);
+    width: 150px;
+    padding: 9px;
+    letter-spacing: 1px;
+    border: none;
+    color: $white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-appearance: none;
+	margin-bottom:$baseline;
+	
+	&:hover{
+		background: lighten($black,25%);
+	}
 }
 
 textarea {
 	resize: none;
 	min-height: 200px;
+	@include input();
+	width:98%;
 }
 
 button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
-	box-shadow: 0 0 4px #0066FF;
+	@include shadow (0,0,2px,#0066FF);
 	z-index: 1;
 }

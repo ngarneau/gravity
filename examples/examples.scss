@@ -1,0 +1,7 @@
+@import "../stylesheets/style";
+
+.button{
+	@include button(#333,#FFF,300px);
+}
+
+h1,h2,p {font-family:$serif;}

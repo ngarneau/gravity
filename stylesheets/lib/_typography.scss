@@ -6,9 +6,9 @@ TYPOGRAPHY
 
 /* Default fonts and colors. */
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
-	line-height: $baseline;
-	font-family: $font-family;
-	color: $text-color;
+	line-height: 1.5;
+	font-family: $sans;
+	color: $text;
 	font-size:$font-size;
 }
 
@@ -18,35 +18,25 @@ HEADINGS
 
 -------------------------------------------------------------- */
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5 {
 	font-weight: bold;
-	margin-bottom: $baseline;
+	margin-bottom: $baseline/2;
 }
 
 h1 {
-	font-size: 40px;
-	line-height: 1;
+	font-size: 30px;;
 }
 h2 {
-	font-size: 35px;
-	line-height: 1
+	font-size: 26px;
 }
 h3 {
-	font-size: 30px;
-	line-height: 1
+	font-size: 24px;
 }
 h4 {
-	font-size: 25px;
-	line-height: 1
+	font-size: 205px;
 }
 h5 {
-	font-size: 20px;
-	line-height: 1
+	font-size: 16px;
 }
-h6 {
-	font-size: 15px;
-	line-height: 1
-}
-
 
 @import "_elements";

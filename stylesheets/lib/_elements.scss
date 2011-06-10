@@ -43,7 +43,7 @@ del {
 }
 
 a {
-	color: $link-color;
+	color: $links;
 	text-decoration: none;
 	/* Force a hand pointer for all links */
 	cursor:pointer;
@@ -85,7 +85,6 @@ cite {
 	font-weight: bold;
 }
 
-
 /* --------------------------------------------------------------
 
 IMAGES
@@ -93,5 +92,5 @@ IMAGES
 -------------------------------------------------------------- */
 
 img {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }

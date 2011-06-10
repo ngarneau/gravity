@@ -1,24 +1,45 @@
 /* --------------------------------------------------------------
+                       _ _         
+                      (_) |        
+  __ _ _ __ __ ___   ___| |_ _   _ 
+ / _` | '__/ _` \ \ / / | __| | | |
+| (_| | | | (_| |\ V /| | |_| |_| |
+ \__, |_|  \__,_| \_/ |_|\__|\__, |
+  __/ |                       __/ |
+ |___/                       |___/ 
 
-SETTINGS
-Here you can declare the core variables for your project.
-All content will inherit from these.
+
+Gravityframework.com
+Version 1.2 
+Developed by: Owain Lewis
+License: MIT
 
 -------------------------------------------------------------- */
 
-$grid-width: 940px;
-$gutter-width: 20px;
+//Layout
+
+$width: 940px;
+$gutters: 20px;
+$columns: 12;
+$baseline: 20px;
 
 //Fonts
 
-$font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+$sans: "Myriad Pro", Frutiger, Univers, Helvetica, Arial, sans-serif;
+$serif: 'Bookman Old Style',Bookman,'URW Bookman L','Palatino Linotype',serif;
+$mono: "Lucida Console", "Andale Mono", "monotype.com", "Bitstream Vera Sans Mono", monospace;
 $font-size: 14px;
-$baseline: 20px;
 
-//Colors
+//Website Colors
 
-$background-color: #FFF;
-$text-color: #000;
-$link-color: #1c7fc4;
-$border:#CCC;
-$brand-color:#1c7fc4;
+$background: #FFF;
+$text: #000;
+$links: #1c7fc4;
+$borders:#CCC;
+$headings: #333;
+
+//Default Colors
+
+$white:#FFF;
+$grey: #666;
+$black: #000;

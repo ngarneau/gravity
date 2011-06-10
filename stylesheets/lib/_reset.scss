@@ -59,17 +59,15 @@ hr {
 input,select {
 	vertical-align: middle;
 }
-/* --------------------------------------------------------------
-BASE CSS
--------------------------------------------------------------- */
+
 textarea {
 	overflow: auto;
 }
-/* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+
 .ie6 legend,.ie7 legend {
 	margin-left: -7px;
 }
-/* Align checkboxes,radios,text inputs with their label by:Thierry Koblentz tjkdesign.com/ez-css/css/base.css */
+
 input[wtype="radio"] {
 	vertical-align: text-bottom;
 }
@@ -82,11 +80,11 @@ input[type="checkbox"] {
 .ie6 input {
 	vertical-align: text-bottom;
 }
-/* Hand cursor on clickable input elements */
+
 label,input[type="button"],input[type="submit"],input[type="image"],button {
 	cursor: pointer;
 }
-/* Webkit browsers add a 2px margin outside the chrome of form elements */
+
 button,input,select,textarea {
 	margin: 0;
 }

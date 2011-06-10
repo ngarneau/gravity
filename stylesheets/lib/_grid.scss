@@ -1,35 +1,39 @@
 /* --------------------------------------------------------------
 
-COLUMNS
+CSS GRID. www.owainlewis.com
 
 -------------------------------------------------------------- */
 
-.col {
-	margin-right: $gutter-width;
-	float: left
+$col_width: ($width - ($gutters * ($columns - 1))) / $columns;
+$col_total_width: $col_width + $gutters;
+
+@mixin col($n: 1) {
+	float: left; 
+	@include buildColumn($n);
 }
 
-//This will break in IE < 9 so add .last to your columns if that's an issue
-.col:last-child {
+@mixin last() {
 	margin-right: 0;
 }
 
-.whole {
-	width: $grid-width;
-	margin-right: 0;
+@mixin buildColumn($n: 1) {
+	width: ($n * $col_width) + (($n - 1) * $gutters);
+	@if $n == 1 {
+		@include last()
+	}
+	@if $n == columns {
+		@include last()
+	}
+	@else {
+		margin-right: $gutters;
+	}
+
 }
-.half {
-	width: ($grid-width - (1 * $gutter-width)) / 2;
+
+@for $i from 1 through $columns {
+  .col-#{$i} { 
+	@include col($i);
+	&:last-child{ @include last() }
+  }
 }
-.third {
-	width: ($grid-width - (2 * $gutter-width)) / 3;
-}
-.fourth {
-	width: ($grid-width - (3 * $gutter-width)) / 4;
-}
-.fifth {
-	width: ($grid-width - (4 * $gutter-width)) / 5;
-}
-.sixth {
-	width: ($grid-width - (5 * $gutter-width)) / 6;
-}
+

@@ -1,15 +1,19 @@
+@import "lib/_settings";
 @import "lib/_core";
 
 /* --------------------------------------------------------------
 
-STRUCTURE
+Main CSS
 
 -------------------------------------------------------------- */
 
 #container {
-	width: $grid-width;
-	margin: 40px auto;
+	width: $width;
+	margin: 0 auto;
+	padding:20px 0;
 	overflow: hidden;
 }
+
+section {margin-bottom:$baseline;overflow:hidden;}
 
 
