@@ -30,7 +30,6 @@ input[type="tel"]:focus,
 textarea:focus {
 	border: 1px solid #aaa;
 	color: #444;
-	@include shadow(0px, 0, 2px, #06f);
 }
 textarea {
 	min-height: 100px;
