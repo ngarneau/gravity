@@ -16,6 +16,20 @@
 	-webkit-border-radius: $radius;
 }
 
+@mixin fontFace ($name){
+	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/$name.eot');
+	    src: url('../fonts/$name.eot?iefix') format('eot'),
+	         url('../fonts/$name.woff') format('woff'),
+	         url('../fonts/$name.ttf') format('truetype'),
+	         url('../fonts/$name.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+	
+ }
+
 @mixin roundedSides($topLeft, $topRight, $bottomRight, $bottomLeft) {
 	-moz-border-radius-topleft: $topLeft;
 	-moz-border-radius-topright: $topRight;
@@ -37,18 +51,18 @@
 	box-shadow: $off-y $off-x $blur $color;
 }
 
-@mixin gradient($baseColor, $toColor) {
+@mixin gradient($baseColor:#333, $toColor:#111) {
 	background-color: $baseColor;
 	background-image: -moz-linear-gradient(top, $baseColor, $toColor); /* FF3.6 */
 	background-image: -webkit-gradient(linear,left top,left bottom, color-stop(0, $baseColor),color-stop(1, $toColor)); /* Saf4+, Chrome */
 	background-image: linear-gradient(top,$baseColor, $toColor);
 }
 
-@mixin trasition($property, $duration:0.3s, $function: ease-out) {
-	-moz-transition: $property $durations $function; /* FF3.7+ */
-	-o-transition: $property $durations $function; /* Opera 10.5 */
-	-webkit-transition: $property $durations $function; /* Saf3.2+, Chrome */
-	transition: $property $durations $function;
+@mixin trasition($property:all, $duration:0.5s, $function: ease-in-out) {
+	-moz-transition: $property $duration $function; /* FF3.7+ */
+	-o-transition: $property $duration $function; /* Opera 10.5 */
+	-webkit-transition: $property $duration $function; /* Saf3.2+, Chrome */
+	transition: $property $duration $function;
 }
 
 @mixin transform($scale, $rotate, $trans-x, $trans-y, $skew-x, $skew-y) {
