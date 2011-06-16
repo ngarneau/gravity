@@ -152,19 +152,19 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 10px; }
 
 h1 {
-  font-size: 30px; }
+  font-size: 29.4px; }
 
 h2 {
-  font-size: 26px; }
+  font-size: 26.6px; }
 
 h3 {
-  font-size: 24px; }
+  font-size: 23.8px; }
 
 h4 {
-  font-size: 20px; }
+  font-size: 19.6px; }
 
 h5 {
-  font-size: 16px; }
+  font-size: 16.8px; }
 
 /* --------------------------------------------------------------
 
@@ -237,8 +237,7 @@ pre, code, tt {
   line-height: 1.5; }
 
 tt {
-  display: block;
-  line-height: 1.5; }
+  display: block; }
 
 q {
   font-style: italic;
@@ -255,6 +254,11 @@ IMAGES
 -------------------------------------------------------------- */
 img {
   margin-bottom: 10px; }
+
+figcaption {
+  display: block;
+  font-weight: bold;
+  font-style: italic; }
 
 /* --------------------------------------------------------------
 
