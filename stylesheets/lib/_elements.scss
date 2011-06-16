@@ -11,14 +11,19 @@ ul, ol {
 	margin-bottom: $baseline;
 }
 ul {
-	list-style-type: decimal;
+	list-style: none;
 }
 ol {
 	list-style-type: decimal;
 }
 li {
 	margin-bottom: $baseline/2;
-	list-style:none;
+}
+
+ul li ul {
+	margin-left: $baseline;
+	margin-top: $baseline/2;
+	margin-bottom:$baseline/2;;
 }
 
 dl {

@@ -178,14 +178,18 @@ ul, ol {
   margin-bottom: 20px; }
 
 ul {
-  list-style-type: decimal; }
+  list-style: none; }
 
 ol {
   list-style-type: decimal; }
 
 li {
-  margin-bottom: 10px;
-  list-style: none; }
+  margin-bottom: 10px; }
+
+ul li ul {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 dl {
   margin-bottom: 20px; }
