@@ -78,7 +78,6 @@ pre, code, tt {
 }
 tt {
 	display: block;
-	line-height: 1.5;
 }
 
 q {
@@ -99,3 +98,5 @@ IMAGES
 img {
 	margin-bottom: 10px;
 }
+
+figcaption {display:block;font-weight:bold;font-style:italic;}
