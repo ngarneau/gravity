@@ -21,22 +21,23 @@ HEADINGS
 h1,h2,h3,h4,h5 {
 	font-weight: bold;
 	margin-bottom: $baseline/2;
+	color:$headings;
 }
 
 h1 {
-    font-size: $font-size * 2.1;
+    font-size: 22px;
 }
 h2 {
-    font-size: $font-size * 1.9;
+    font-size: 20px;
 }
 h3 {
-    font-size: $font-size * 1.7;
+    font-size: 18px;
 }
 h4 {
-    font-size: $font-size * 1.4;
+    font-size: 16px;
 }
 h5 {
-    font-size: $font-size * 1.2;
+    font-size: 14px;
 }
 
 @import "_elements";

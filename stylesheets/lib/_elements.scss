@@ -23,7 +23,7 @@ li {
 ul li ul {
 	margin-left: $baseline;
 	margin-top: $baseline/2;
-	margin-bottom:$baseline/2;;
+	margin-bottom: $baseline/2;;
 }
 
 dl {
@@ -99,4 +99,8 @@ img {
 	margin-bottom: 10px;
 }
 
-figcaption {display:block;font-weight:bold;font-style:italic;}
+figcaption {
+	display: block;
+	font-weight: bold;
+	font-style: italic;
+}

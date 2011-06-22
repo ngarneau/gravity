@@ -1,13 +1,30 @@
 @mixin clearfix {
-  display: inline-block;
-  &:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-  }
-  * html & { height: 1px }
+	display: inline-block;
+	&:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	* html & {
+		height: 1px
+	}
+
+}
+
+@mixin fontFace ($name) {
+	@font-face {
+		font-family: 'FontName';
+		src: url('../fonts/$name.eot');
+		src: url('../fonts/$name.eot?iefix') format('eot'),
+		url('../fonts/$name.woff') format('woff'),
+		url('../fonts/$name.ttf') format('truetype'),
+		url('../fonts/$name.svg#webfontZam02nTh') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
 }
 
 @mixin rounded($radius: 10px) {
@@ -16,19 +33,6 @@
 	-webkit-border-radius: $radius;
 }
 
-@mixin fontFace ($name){
-	@font-face {
-	    font-family: 'FontName';
-	    src: url('../fonts/$name.eot');
-	    src: url('../fonts/$name.eot?iefix') format('eot'),
-	         url('../fonts/$name.woff') format('woff'),
-	         url('../fonts/$name.ttf') format('truetype'),
-	         url('../fonts/$name.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal;
-	}
-	
- }
 
 @mixin roundedSides($topLeft, $topRight, $bottomRight, $bottomLeft) {
 	-moz-border-radius-topleft: $topLeft;
@@ -41,13 +45,13 @@
 	border-bottom-left-radius: $bottomLeft;
 }
 
-@mixin textShadow($x-axis, $y-axis, $casting, $color) {
+@mixin textShadow($x-axis:1px, $y-axis:1px, $casting:1px, $color:#FFF) {
 	textShadow: $x-axis $y-axis $casting $color;
 }
 
-@mixin shadow( $off-y, $off-x, $blur, $color) {
+@mixin shadow( $off-y:1px, $off-x:1px, $blur:2px, $color:#444) {
 	-moz-box-shadow: $off-y $off-x $blur $color;
-	-webkit-box-shadow: $off-y $off-x $blur $color; 
+	-webkit-box-shadow: $off-y $off-x $blur $color;
 	box-shadow: $off-y $off-x $blur $color;
 }
 
@@ -58,7 +62,7 @@
 	background-image: linear-gradient(top,$baseColor, $toColor);
 }
 
-@mixin trasition($property:all, $duration:0.5s, $function: ease-in-out) {
+@mixin transition($property:all, $duration:0.5s, $function: ease-in-out) {
 	-moz-transition: $property $duration $function; /* FF3.7+ */
 	-o-transition: $property $duration $function; /* Opera 10.5 */
 	-webkit-transition: $property $duration $function; /* Saf3.2+, Chrome */
