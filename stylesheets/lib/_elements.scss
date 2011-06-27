@@ -5,10 +5,10 @@ PAGE ELEMENTS
 -------------------------------------------------------------- */
 
 p {
-	margin-bottom: $baseline;
+	margin-bottom: $baseline/2;
 }
 ul, ol {
-	margin-bottom: $baseline;
+	margin-bottom: $baseline/2;
 }
 ul {
 	list-style: none;
@@ -50,6 +50,7 @@ del {
 a {
 	color: $links;
 	text-decoration: none;
+	@include transition();
 	/* Force a hand pointer for all links */
 	cursor:pointer;
 }

@@ -169,10 +169,10 @@ PAGE ELEMENTS
 
 -------------------------------------------------------------- */
 p {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
 ul, ol {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
 ul {
   list-style: none; }
@@ -210,6 +210,13 @@ del {
 a {
   color: #1c7fc4;
   text-decoration: none;
+  -moz-transition: all 0.5s ease-in-out;
+  /* FF3.7+ */
+  -o-transition: all 0.5s ease-in-out;
+  /* Opera 10.5 */
+  -webkit-transition: all 0.5s ease-in-out;
+  /* Saf3.2+, Chrome */
+  transition: all 0.5s ease-in-out;
   /* Force a hand pointer for all links */
   cursor: pointer; }
 
