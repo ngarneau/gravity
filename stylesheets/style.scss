@@ -7,13 +7,20 @@ Main CSS
 
 -------------------------------------------------------------- */
 
+body {
+	background: url(../images/12_col.gif) repeat-y center -4px;
+}
 #container {
 	width: $width;
 	margin: 0 auto;
-	padding:20px 0;
+	padding: 20px 0;
 	overflow: hidden;
 }
 
-section {margin-bottom:$baseline;overflow:hidden;}
+section {
+	margin-bottom: $baseline;
+	overflow: hidden;
+}
+
 
 
