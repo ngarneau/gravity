@@ -1,0 +1,68 @@
+!!! 5
+%html{:class => "no-js", :lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title="MySite"
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+  
+    <!-- [if (lt IE 9)]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+    <!-- Mobile Specific Meta Tags -->
+    %meta{:name => "viewport", :content => "width=device-width; initial-scale=1.0; maximum-scale=1.0;"}
+  
+    <!-- CSS -->
+    %link{:rel => "stylesheet", :href => "stylesheets/style.css", :type => "text/css"}
+
+  %body
+    %div#container
+      <!-- You can delete everything inside this div -->
+      - @text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."    
+      %section
+        %header
+          %hgroup
+            %h1.center Gravity
+            %h2.center A framework for beautiful websites
+
+      %section
+        %div.col-12
+          %p= @text
+        
+      %section
+        - 2.times do
+          %div.col-6
+            %p= @text
+            
+      %section
+        - 3.times do
+          %div.col-4
+            %p= @text
+          
+      %section
+        - 4.times do
+          %div.col-3
+            %ul
+              = list_of(['Lorem ipsum','Dolor sit','Consectetur']) do |i|
+                = i + ' ' + i
+            
+      %section
+        - 6.times do
+          %div.col-2
+            %ul
+              = list_of(['Lorem ipsum','Dolor sit','Consectetur']) do |i|
+                = i
+      %section
+        %div.col-8
+          %p= @text
+          %p= @text
+        %div.col-4
+          %p= @text
+          
+      %footer
+        %p
+          %a{:href => "http://gravityframework.com"} GravityFramework
+         
+    %script{:src => "http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"}
+    %script{:src => "http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"}
+    %script{:src => "http://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"}
+    %script{:src => "js/application.js"}
