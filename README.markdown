@@ -6,7 +6,7 @@ http://GravityFramework.com
 
 Gravity is a powerful boilerplate framework for building HTML5 websites. It uses SASS and HAML in place of CSS and HTML5. 
 
-Gravity will drastically reduce the time needed to take a design from concept to working model. It enforces best practices at every stage.Gravity based websites are easier to maintain, and therefore this framework can help you drastically improve your teams workflow and profitability.
+Gravity will drastically reduce the time needed to take a design from concept to working model. It enforces best practices at every stage. Gravity based websites are easier to maintain, and therefore this framework can help you drastically improve your teams workflow and profitability.
 
 ##Mixin Syntax
 
@@ -16,7 +16,7 @@ Gravity comes with a wide range of useful CSS3 mixins. Tired of writing multiple
 
 ##Installing Gravity
 
-You need SASS installed http://sass-lang.com
+You need SASS installed http://sass-lang.com and ideally HAML. (gem install haml)
 
 MAC OSX
 
