@@ -1,6 +1,5 @@
 #Gravity Framework
 AUTHORS: Owain Lewis, Ollie Wells, Hamish Taplin, Nadhim Orfali
-URL: [www.owainlewis.com](http://www.owainlewis.com/), [www.twentysixtwelve.co.uk](http://www.twentysixtwelve.co.uk)
 
 Creative Commons (cc) Attribution 3.0
 http://GravityFramework.com
