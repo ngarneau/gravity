@@ -1,18 +1,21 @@
 #Gravity Framework
-AUTHORS: Owain Lewis, Ollie Wells
+AUTHORS: Owain Lewis, Ollie Wells, Hamish Taplin, Nadhim Orfali
 URL: [www.owainlewis.com](http://www.owainlewis.com/), [www.twentysixtwelve.co.uk](http://www.twentysixtwelve.co.uk)
 
 Creative Commons (cc) Attribution 3.0
 http://GravityFramework.com
 
-Inspired by many great people and projects.
+Gravity is a powerful boilerplate framework for building HTML5 websites. It uses SASS and HAML in place of CSS and HTML5. 
 
-A powerful boilerplate framework for building HTML5 websites that uses SASS as the core styling engine. 
-Gravity will drastically reduce the time needed to take a design from concept to working model. It enforces best practices at every stage.
+Gravity will drastically reduce the time needed to take a design from concept to working model. It enforces best practices at every stage.Gravity based websites are easier to maintain, and therefore this framework can help you drastically improve your teams workflow and profitability.
 
-In my opinion, Gravity based websites are easier to maintain, and therefore this framework can help you drastically improve your teams workflow and profitability.
+##Mixin Syntax
 
-Mobile support/version coming soon.
+Gravity comes with a wide range of useful CSS3 mixins. Tired of writing multiple lines of vendor specific CSS? So were we. You can now add cross browser CSS3 to your projects with one line.
+
+@include rounded(10px)
+
+##Installing Gravity
 
 You need SASS installed http://sass-lang.com
 
