@@ -10,11 +10,11 @@ Gravity will drastically reduce the time needed to take a design from concept to
 
 ##Features
 
-Core CSS styling (reset styles, typography, baselines, grids)
-Grid builder
-CSS3 Mixins
-HAML and HTML5 index.html files already set up
-Media Queries built in and ready to go
++ Core CSS styling (reset styles, typography, baselines, grids)
++ Grid builder
++ CSS3 Mixins
++ HAML and HTML5 index.html files already set up
++ Media Queries built in and ready to go
 
 ##Mixin Syntax
 
