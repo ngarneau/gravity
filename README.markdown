@@ -4,9 +4,17 @@ AUTHORS: Owain Lewis, Ollie Wells, Hamish Taplin, Nadhim Orfali
 Creative Commons (cc) Attribution 3.0
 http://GravityFramework.com
 
-Gravity is a powerful boilerplate framework for building HTML5 websites. It uses SASS and HAML in place of CSS and HTML5. 
+Gravity is a powerful boilerplate framework for building HTML5 websites. It uses SASS and HAML in place of CSS and HTML5. Gravity does some basic setup work for you, giving you a rock solid starting point for your project and then gets out of your way. 
 
 Gravity will drastically reduce the time needed to take a design from concept to working model. It enforces best practices at every stage. Gravity based websites are easier to maintain, and therefore this framework can help you drastically improve your teams workflow and profitability.
+
+##Features
+
+Core CSS styling (reset styles, typography, baselines, grids)
+Grid builder
+CSS3 Mixins
+HAML and HTML5 index.html files already set up
+Media Queries built in and ready to go
 
 ##Mixin Syntax
 
