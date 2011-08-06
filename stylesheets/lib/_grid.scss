@@ -4,6 +4,13 @@ CSS GRID. www.owainlewis.com
 
 -------------------------------------------------------------- */
 
+#container {
+	width: $width;
+	margin: 0 auto;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
 $col_width: ($width - ($gutters * ($columns - 1))) / $columns;
 $col_total_width: $col_width + $gutters;
 

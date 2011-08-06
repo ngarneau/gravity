@@ -4,31 +4,190 @@ MEDIA QUERIES
 
 -------------------------------------------------------------- */
 
-/* iPad Portrait/Browser */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* #Tablet (Portrait)
+================================================== */
+
+/* 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#container {
+		width: 748px;
+	}
+
+	.col-1 {
+		float: left;
+		width: 44px;
+		margin-right: 0;
+		margin-right: 20px;
+	}
+	.col-1:last-child {
+		margin-right: 0;
+	}
+
+	.col-2 {
+		float: left;
+		width: 108px;
+		margin-right: 20px;
+	}
+	.col-2:last-child {
+		margin-right: 0;
+	}
+
+	.col-3 {
+		float: left;
+		width: 172px;
+		margin-right: 20px;
+	}
+	.col-3:last-child {
+		margin-right: 0;
+	}
+
+	.col-4 {
+		float: left;
+		width: 236px;
+		margin-right: 20px;
+	}
+	.col-4:last-child {
+		margin-right: 0;
+	}
+
+	.col-5 {
+		float: left;
+		width: 300px;
+		margin-right: 20px;
+	}
+	.col-5:last-child {
+		margin-right: 0;
+	}
+
+	.col-6 {
+		float: left;
+		width: 364px;
+		margin-right: 20px;
+	}
+	.col-6:last-child {
+		margin-right: 0;
+	}
+
+	.col-7 {
+		float: left;
+		width: 428px;
+		margin-right: 20px;
+	}
+	.col-7:last-child {
+		margin-right: 0;
+	}
+
+	.col-8 {
+		float: left;
+		width: 492px;
+		margin-right: 20px;
+	}
+	.col-8:last-child {
+		margin-right: 0;
+	}
+
+	.col-9 {
+		float: left;
+		width: 556px;
+		margin-right: 20px;
+	}
+	.col-9:last-child {
+		margin-right: 0;
+	}
+
+	.col-10 {
+		float: left;
+		width: 620px;
+		margin-right: 20px;
+	}
+	.col-10:last-child {
+		margin-right: 0;
+	}
+
+	.col-11 {
+		float: left;
+		width: 684px;
+		margin-right: 20px;
+	}
+	.col-11:last-child {
+		margin-right: 0;
+	}
+
+	.col-12 {
+		float: left;
+		width: 748px;
+		margin-right: 20px;
+	}
+	.col-12:last-child {
+		margin-right: 0;
+	}
+
 }
 
-/* Mobile/Browser */
+
+/* #Mobile (Portrait)
+================================================== */
+
+/* 320px */
+
 @media only screen and (max-width: 767px) {
+
+/* --------------------------------------------------------------
+
+CSS GRID. www.owainlewis.com
+
+-------------------------------------------------------------- */
+
+#container {
+	width: 300px;
+	padding: 0 10px;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+	width: 300px;
+	margin: 0;
 }
 
-/* Mobile Landscape/Browser */
+}
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+/* 480px */
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-}
 
-/* Anything smaller than standard 960 */
-@media only screen and (max-width: 959px) {
-}
+	#container {
+		width: 480px;
+		padding: 0 10px;
+	}
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
+		width: 460px;
+		margin: 0;
+	}
 
-/* iPad Portrait Only */
-@media only screen and (min-width: 768px) and (max-width: 991px) and (max-device-width: 1000px) {
-}
-
-/* Mobile Only */
-@media only screen and (max-width: 767px) and (max-device-width: 1000px) {
-}
-
-/* Mobile Landscape Only */
-@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {
 }
 
