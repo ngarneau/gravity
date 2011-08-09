@@ -1,6 +1,13 @@
 @import "lib/_settings";
 @import "lib/_core";
 
+#container {
+	width: $width;
+	margin: 0 auto;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
 /* --------------------------------------------------------------
 
 Main CSS. For demo purposes only. You can delete this.
@@ -8,7 +15,10 @@ Main CSS. For demo purposes only. You can delete this.
 -------------------------------------------------------------- */
 
 body {
-	background: url(../images/12_col.gif) repeat-y center -4px;
+  background:#eee;		
+	/* Uncomment to view baseline
+	background: url(../images/12_col.gif) repeat-y center -1px;
+	*/
 }
 
 section {
@@ -16,5 +26,16 @@ section {
 	overflow: hidden;
 }
 
+h1, h2, h3, h4, h5, h6, p, li a{@include textShadow();}
+h1, h2, h3, h4, h5, h6{text-transform:uppercase;}
+
+footer p {text-align:center}
 
 
+/* --------------------------------------------------------------
+
+Media Queries for a responsive grid. Delete if not required.
+
+-------------------------------------------------------------- */
+
+@import "lib/helpers/_media_queries";

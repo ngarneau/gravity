@@ -21,26 +21,27 @@ HEADINGS
 h1,h2,h3,h4,h5 {
 	margin-bottom: $baseline;
 	color:$headings;
+	font-weight:900;
 }
 
 h1 {
-    font-size: $baseline;
-	line-height:$baseline;
+  font-size: $baseline*2;
+	line-height:$baseline*2;
 }
 h2 {
-    font-size: $baseline;
+  font-size: $baseline;
 	line-height:$baseline;
 }
 h3 {
-    font-size: $baseline;
+  font-size: $baseline;
 	line-height:$baseline;
 }
 h4 {
-    font-size: $baseline;
+  font-size: $baseline;
 	line-height:$baseline;
 }
 h5 {
-    font-size: $baseline;
+  font-size: $baseline;
 	line-height:$baseline;
 }
 
