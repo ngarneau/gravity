@@ -4,9 +4,7 @@ AUTHORS: Owain Lewis, Ollie Wells, Hamish Taplin, Nadhim Orfali
 Creative Commons (cc) Attribution 3.0
 http://GravityFramework.com
 
-Gravity now ships with a responsive 12 column grid by default that adapts to all devices if required.
-
-Gravity is a powerful boilerplate framework for building HTML5 websites. It uses SASS and HAML in place of CSS and HTML5. Gravity does some basic setup work for you, giving you a rock solid starting point for your project and then gets out of your way. 
+Gravity is a powerful boilerplate framework for building HTML5 websites. It uses SASS and HAML in place of CSS and HTML5. Gravity does some basic setup work for you, giving you a rock solid starting point for your project and then gets out of your way. It ships with a responsive 12 column grid by default that adapts to all devices if required, along with both sass and scss options depending on your preference. 
 
 Gravity will drastically reduce the time needed to take a design from concept to working model. It enforces best practices at every stage. Gravity based websites are easier to maintain, and therefore this framework can help you drastically improve your teams workflow and profitability.
 
@@ -34,7 +32,7 @@ MAC OSX
 1. mkdir myproject
 2. cd myproject
 3. Copy the framework into your new project directory
-4. Run this command in the terminal: sass --watch stylesheets:stylesheets
+4. Run this command in the terminal: sass --watch sass:css
 
 If you have any questions about this framework email owain@owainlewis.com.
 
