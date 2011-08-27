@@ -1,0 +1,24 @@
+=button($color:#ccc, $text_color:#333, $width:80px)
+  +rounded(4px)
+  +gradient(lighten($color, 10%), $color)
+  cursor: pointer
+  font-weight: bold
+  color: $text_color
+  display: inline-block
+  border: 1px solid darken($color, 5%)
+  text-align: center
+  padding: 4px 12px
+  margin: 0 10px 20px 0
+  @if $width
+    min-width: $width
+  &:hover
+    +gradient(lighten($color, 5%), lighten($color, 10%))
+		
+.button 
+  +button
+	
+.button.main
+  +button(#049CDB, #FFF)
+	
+.button.delete 
+  +button(#9D261D, #FFF)
