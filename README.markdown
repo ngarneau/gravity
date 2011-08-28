@@ -21,17 +21,15 @@ Gravity will drastically reduce the time needed to take a design from concept to
 
 Gravity comes with a wide range of useful CSS3 mixins. Tired of writing multiple lines of vendor specific CSS? You can now add cross browser CSS3 to your projects with one line:
 
-```
-+rounded(10px)
-+transition()
-+opacity(0.4)
+	+rounded(10px)
+	+transition()
+	+opacity(0.4)
 
 ## Install
 
-```
-git clone http://github.com/owainlewis/Gravity-Framework.git [project-name]
-cd [project-name]
-rake sass
+	git clone http://github.com/owainlewis/Gravity-Framework.git [project-name]
+	cd [project-name]
+	rake sass
 
 =====================
 
