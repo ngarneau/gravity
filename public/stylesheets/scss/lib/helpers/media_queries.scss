@@ -1,0 +1,17 @@
+/* 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* 320px. iPhone */
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px; }
+  @for $i from 1 through $columns {
+    .span-#{$i} {
+      width: 280px;
+      margin: 0 10px; } } }
+
+/* 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
