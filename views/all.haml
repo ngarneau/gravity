@@ -1,0 +1,202 @@
+!!!5
+%html(class="no-js" lang="en")
+  %head
+    %meta(charset="utf-8")
+    %title="Project Title"
+    %meta(content="" name="description")
+    %meta(content="" name="author")
+    %script(src="http://html5shim.googlecode.com/svn/trunk/html5.js")
+    %meta(name="viewport" content="width=(device-width; initial-scale=1.0;)maximum-scale=1.0;")
+    %link(rel="stylesheet" href="public/stylesheets/css/style.css" type="text/css")
+
+  %body
+    .container
+      %h1.center Gravity CSS
+      %hr
+      %section
+        %h3 Paragraphs
+        .span-4
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          %p 
+            %strong Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          %pre
+            %code This is a code block
+
+        .span-4
+          %p
+          %b Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          %p
+          %a This is a line
+          %p
+            %i Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        .span-4
+          %p 
+            %small Small text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          %q Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+      %hr		
+      %section
+        .span-4
+          %h1 Misc Elements
+          %p 
+          %del Strike through
+        .span-8
+          %blockquote Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  styles. 
+
+      %hr		
+      %section
+        %h3 Headings
+        .span-4
+          %h1 Heading 1
+          %h2 Heading 2
+          %h3 Heading 3
+          %h4 Heading 4
+          %h5 Heading 5
+          %h6 Heading 6
+        .span-4
+          %h1 Lorem ipsum dolor sit amet
+          %h2 Lorem ipsum dolor sit amet
+          %h3 Lorem ipsum dolor sit amet
+          %h4 Lorem ipsum dolor sit amet
+          %h5 Lorem ipsum dolor sit amet
+          %h6 Lorem ipsum dolor sit amet
+        .span-4
+          %h1 Heading 1
+          %hr
+          %h2 Heading 2
+          %hr
+          %h3 Heading 3
+          %hr
+          %h4 Heading 4
+          %hr
+          %h5 Heading 5
+          %hr
+          %h6 Heading 6
+          %hr
+ 
+      %hr		
+      %section
+        .span-4
+          %h3 Forms
+          %p Default forms. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+          %ul.input-list
+            %li
+              %input(type="radio") Radio button 1
+            %li
+              %input(type="radio") Another
+            %li 
+              %input(type="radio") Radio 3
+
+          %label Password input
+          %input(type="password" value="password")
+
+          %input(type="search") 
+
+
+        .span-8
+          %form
+            %label Text input
+            %input(type="text")
+
+            %label Email input
+            %input(type="email")
+
+            %label Select
+            %select
+              %option First
+              %option Second
+              %option Third
+
+          %h3 Stacked Checkboxes
+          %ul.input-list
+            %li
+              %input(type="checkbox") Checkbox
+            %li 
+              %input(type="checkbox") List item
+            %li
+              %input(type="checkbox") Another item
+
+          %label Textarea
+          %textarea
+
+      %hr	
+      %section
+        %h3 Lists
+        .span-3
+          %ul
+            %li Some long text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            %li Unordered list test
+            %li 
+              Some item
+              %ul
+                %li Unordered list test
+                %li Another item
+                %li Sub item
+                %li Final list item
+        .span-3
+          %ol 
+            %li Item 1
+            %li 
+              Nested ol
+              %ol
+                %li Nested item
+                %li Another one
+                %li Item 2
+                %li 
+                  Item 3
+                  %ul
+                    %li Sub item
+
+        .span-3
+          %dl
+            %dt Lorem ipsum dolor sit amet, consectetur adipisicing elit adipisicing elit adipisicing elit
+            %dd Item 1
+            %dl Some title
+            %dd Item 2
+            %dd Item 3
+
+        .span-3
+          %ul.unstyled
+            %li Unstyled items
+            %li Another unstyled list item
+            %li 
+              Some text
+              %ul
+                %li Sub item in list
+                %li Another sub item
+  
+      %hr	
+      %section
+        %h3 Tabular Data
+        .span-12
+          %table
+            %thead
+              %tr
+                %th Name
+                %th Address
+                %th Email
+              %tr
+                %td Owain
+                %td My Town
+                %td owain@owainlewis.com
+              %tr
+                %td Lorem
+                %td Ipsume
+                %td Dolor
+
+              %tr
+                %td Owain
+                %td Somewhere Park
+                %td owain@owainlewis.com
+              %tr
+                %td Lorem
+                %td Ipsume
+                %td Dolor
+
+      %section
+        %h3 Buttons
+        %a.button Submit
+        %a.button.delete Delete
+        %a.button.main Default button
