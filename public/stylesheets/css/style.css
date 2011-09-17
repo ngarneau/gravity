@@ -78,7 +78,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
   line-height: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: gray;
-  font-size: 13px; }
+  font-size: 14px; }
 
 p {
   margin-bottom: 20px; }
@@ -145,7 +145,7 @@ blockquote {
   font-size: 30px;
   font-family: serif;
   font-style: italic;
-  color: #404040;
+  color: #333333;
   line-height: 30px;
   margin: 20px 0; }
 
@@ -157,7 +157,7 @@ pre, code, tt {
   font: "Monaco", Courier New, monospace;
   line-height: 1.5;
   padding: 0 3px 2px;
-  background: #fee9cc; }
+  background: #FFFFEE; }
 
 q {
   font-style: italic;
@@ -177,22 +177,22 @@ figcaption {
   font-style: italic; }
 
 small {
-  font-size: 10px; }
+  font-size: 11px; }
 
 strong {
   font-weight: bold; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
-  color: #404040;
-  font-weight: normal; }
+  color: #333333;
+  font-weight: bold; }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 40px; }
 
 h2 {
-  font-size: 25px;
+  font-size: 24px;
   line-height: 20px; }
 
 h3 {
@@ -200,17 +200,15 @@ h3 {
   line-height: 20px; }
 
 h4 {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px; }
 
 h5 {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 14px;
   line-height: 20px; }
 
 h6 {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 14px;
   line-height: 20px; }
 
 .span-1 {
@@ -508,9 +506,6 @@ td {
 th {
   padding: 10px 10px 6px 10px; }
 
-tr:nth-child(even) {
-  background-color: #F9F9F9; }
-
 tfoot {
   font-style: italic; }
 
@@ -632,7 +627,7 @@ caption {
 .container {
   width: 940px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px;
   overflow: hidden; }
 
 section {
@@ -640,57 +635,15 @@ section {
   margin: 20px 0;
   overflow: hidden; }
 
-/* 768px */
-/* 320px. iPhone */
-@media only screen and (max-width: 767px) {
-  .container {
-    width: 300px; }
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+body {
+  background: #fafafa; }
 
-  .span-1 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-2 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-3 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-4 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-5 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-6 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-7 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-8 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-9 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-10 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-11 {
-    width: 280px;
-    margin: 0 10px; }
-
-  .span-12 {
-    width: 280px;
-    margin: 0 10px; } }
-/* 480px */
+/* ============================= */
+/* ! Layout for mobile version */
+/* ============================= */
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4 */
+/* ========================================== */
