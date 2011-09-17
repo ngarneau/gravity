@@ -1,0 +1,31 @@
+$width: 940px;
+$gutters: 20px;
+$columns: 12;
+$baseline: 20px;
+
+$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: "Georgia", Times New Roman, Times, sans-serif;
+$mono: "Monaco", Courier New, monospace;
+$font-size: 14px;
+
+$links: #0069d6;
+$linksHover: darken($links, 10);
+
+// Grays
+$black: black;
+$grayDark: lighten($black, 20%);
+$gray: lighten($black, 50%);
+$grayLight: lighten($black, 75%);
+$grayLighter: lighten($black, 90%);
+$white: white;
+
+// Accent Colors
+$blue: #049cdb;
+$blueDark: #0064cd;
+$green: #46a546;
+$red: #9d261d;
+$yellow: #ffc40d;
+$orange: #f89406;
+$pink: #c3325f;
+$purple: #7a43b6;
+$borders: #cccccc;

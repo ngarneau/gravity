@@ -1,0 +1,130 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
+	line-height: $baseline;
+	font-family: $sans;
+	color: $gray;
+	font-size: 14px;
+}
+
+p {
+	margin-bottom: $baseline;
+}
+
+ol {
+	margin-bottom: $baseline;
+	margin-left:$baseline;
+	
+	ol {margin-bottom:0;}
+}
+
+ul {
+	margin-bottom: $baseline;
+	li {
+		margin-bottom: $baseline / 4;
+		margin-left: 14px;
+
+		ul {
+			margin-left: $baseline;
+			margin-top: $baseline / 2;
+			margin-bottom: $baseline / 2;
+		}
+
+	}
+
+}
+
+ul.unstyled{
+	list-style:none;
+	li{margin-left:0;}
+}
+
+
+dl {
+	margin-bottom: $baseline;
+
+	dt {
+		font-weight: bold;
+		margin-bottom: $baseline / 2;
+	}
+
+	dd {
+		margin-bottom: $baseline / 2;
+	}
+
+}
+
+
+abbr, acronym {
+	border-bottom: 1px dotted black;
+}
+
+address {
+	font-style: italic;
+}
+
+del {
+	color: black;
+}
+
+a {
+	color: $links;
+	text-decoration: none;
+	@include transition;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+blockquote {
+	display: block;
+	font-weight: bold;
+	border-left: 4px solid #eeeeee;
+	padding: ($baseline*2) $baseline;
+	font-weight: bold;
+	font-size:30px;
+	font-family:serif;
+	font-style:italic;
+	color:$grayDark;
+	line-height:30px;
+	margin:$baseline 0;
+}
+
+pre, code {
+	margin: 10px 0;
+	white-space: pre;
+}
+
+pre, code, tt {
+	font: $mono;
+	line-height: 1.5;
+	padding: 0 3px 2px;
+	background: #FFFFEE;
+}
+
+q {
+	font-style: italic;
+	font-weight: bold;
+	font-family: $serif;
+}
+
+cite {
+	display: block;
+	font-weight: bold;
+}
+
+img {
+	margin-bottom: 10px;
+}
+
+figcaption {
+	display: block;
+	font-weight: bold;
+	font-style: italic;
+}
+
+small {
+	font-size:$font-size - 3;
+}
+
+strong{font-weight:bold;}
