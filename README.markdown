@@ -5,14 +5,14 @@ URL: Owainlewis.com
 Creative Commons (cc) Attribution 3.0
 http://GravityFramework.com
 
-A rock solid set of cross browser defaults for building websites.
+A rock solid set of modular cross browser defaults for building websites.
 
-Gravity is a powerful boilerplate framework for building HTML5 websites. It uses SASS and HAML in place of CSS and HTML5. Gravity does some basic setup work for you, giving you a rock solid starting point for your project and then gets out of your way. It ships with a responsive 12 column grid by default that adapts to all devices if required. 
+Gravity is a powerful modular SCSS framework for building HTML5 websites. It uses SCSS and HAML in place of CSS and HTML5. Gravity does some basic setup work for you, giving you a rock solid starting point for your project and then gets out of your way. The modular nature of the framework means you can easily extend or remove elements you don't need. 
 
 ##Features
 
 + Core CSS styling (reset styles, typography, baselines, grids)
-+ Grid builder
++ SASS Grid builder
 + CSS3 Mixins
 + HAML templates and index.html files already set up
 + Media Queries built in and ready to go
