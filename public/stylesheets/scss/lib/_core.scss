@@ -1,6 +1,6 @@
 /* --------------------------------------------------------------
  * Gravity CSS
- * Version 1.0.1
+ * Version 1
  * Developed by: Owain Lewis
  * www.owainlewis.com
  * License: MIT
@@ -8,24 +8,30 @@
  *-------------------------------------------------------------- */
 
 //Base Modules
+
 @import "settings";
 @import "reset";
 
 //Mixins
+
 @import "mixins";
 
 //Typography
+
 @import "typography/elements";
 @import "typography/headings";
 
 //Layout
-@import "layout/grid"; //use responsive for fluid grids
+
+@import "layout/grid_static"; 
+//use responsive for fluid grids
+//@import "layout/grid_fluid"; 
 
 /* 
 
 The files below are helpers that can be removed if not required
 
- */
+*/
 
 //Forms
 @import "helpers/forms";
@@ -36,3 +42,4 @@ The files below are helpers that can be removed if not required
 //Misc
 @import "helpers/buttons";
 @import "helpers/classes";
+@import "helpers/flash_messages"; //For rails applications

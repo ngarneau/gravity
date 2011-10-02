@@ -11,9 +11,12 @@ p {
 
 ol {
 	margin-bottom: $baseline;
-	margin-left:$baseline;
-	
-	ol {margin-bottom:0;}
+	margin-left: $baseline;
+
+	ol {
+		margin-bottom: 0;
+	}
+
 }
 
 ul {
@@ -32,9 +35,12 @@ ul {
 
 }
 
-ul.unstyled{
-	list-style:none;
-	li{margin-left:0;}
+ul.unstyled {
+	list-style: none;
+	li {
+		margin-left: 0;
+	}
+
 }
 
 
@@ -82,12 +88,12 @@ blockquote {
 	border-left: 4px solid #eeeeee;
 	padding: ($baseline*2) $baseline;
 	font-weight: bold;
-	font-size:30px;
-	font-family:serif;
-	font-style:italic;
-	color:$grayDark;
-	line-height:30px;
-	margin:$baseline 0;
+	font-size: 30px;
+	font-family: serif;
+	font-style: italic;
+	color: $grayDark;
+	line-height: 30px;
+	margin: $baseline 0;
 }
 
 pre, code {
@@ -124,7 +130,9 @@ figcaption {
 }
 
 small {
-	font-size:$font-size - 3;
+	font-size: $font-size - 3;
 }
 
-strong{font-weight:bold;}
+strong {
+	font-weight: bold;
+}

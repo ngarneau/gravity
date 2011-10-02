@@ -1,21 +1,23 @@
 @import "lib/core";
 
 .container {
-  width: $width;
-  margin: 0 auto;
-  padding:20px;
-  overflow: hidden; }
+	width: $width;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: hidden;
+}
 
-section{@include block}
+section {@include block
+}
 
 /* ============================== */
-/* ! Layout for desktop version   */
+/* ! Layout for desktop version */
 /* ============================== */
 
-	body {
-		background:#fafafa;
-	}
-	
+body {
+	background: #fafafa;
+}
+
 //Media Queries
 @import "lib/helpers/media_queries";
 
