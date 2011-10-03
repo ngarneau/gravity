@@ -69,11 +69,11 @@ input[type="radio"],
 input[type="checkbox"] {
 	position: relative;
 	vertical-align: top;
-	top: 3px;
+	top: 1px;
 	/* IE8, IE9, IE10 */
 	top: 0 \0;
 	/* IE7 */
-	*top: -3px;
+	*top: -1px;
 	margin-right: 5px;
 }
 

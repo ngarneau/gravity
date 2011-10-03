@@ -1,13 +1,14 @@
 @import "lib/core";
 
 .container {
-	width: $width;
-	margin: 0 auto;
-	padding: 20px;
-	overflow: hidden;
+  width: $width;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
 }
 
-section {@include block
+section {
+  @include block
 }
 
 /* ============================== */
@@ -15,9 +16,9 @@ section {@include block
 /* ============================== */
 
 body {
-	background: #fafafa;
+
 }
 
 //Media Queries
-@import "lib/helpers/media_queries";
+//@import "lib/helpers/media_queries";
 

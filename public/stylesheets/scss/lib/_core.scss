@@ -14,7 +14,7 @@
 
 //Mixins
 
-@import "mixins";
+@import "mixins/mixins";
 
 //Typography
 
@@ -27,11 +27,7 @@
 //use responsive for fluid grids
 //@import "layout/grid_fluid"; 
 
-/* 
-
-The files below are helpers that can be removed if not required
-
-*/
+//The files below are helpers that can be removed if not required
 
 //Forms
 @import "helpers/forms";
