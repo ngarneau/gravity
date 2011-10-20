@@ -14,16 +14,6 @@
 @import "css3/transform";
 @import "css3/transition";
 
-@mixin block{
-  clear:both;margin:$baseline 0;overflow:hidden;
-}
+@import "display_mixins";
+@import "font_mixins";
 
-// Converts pixels to em
-@mixin px-to-em($px, $base: 16){
-  font-size: #{$px/$base}em;/*16 x !ems = !pixels*/
-}
-
-// Converts pixels to rem
-@mixin px-to-rem($px, $base: 16){
-  font-size: #{$px/$base}rem;
-}
