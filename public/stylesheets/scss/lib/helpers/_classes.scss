@@ -1,3 +1,9 @@
+/*
+
+Avoid misc classes in markup wherever possible. These are mainly for mocking.
+
+*/
+
 .wrap {
   width: $width;
   margin: 0 auto; }

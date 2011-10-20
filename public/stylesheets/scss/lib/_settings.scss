@@ -3,20 +3,20 @@ $gutters: 20px;
 $columns: 12;
 $baseline: 20px;
 
-$sans: Helvetica, Arial, sans-serif;
-$serif: "Georgia", Times New Roman, Times, sans-serif;
-$mono: "Monaco", Courier New, monospace;
-$font-size: 14px;
+$sans: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans serif;
+$serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif," "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;;
+$mono: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;;
 
+$font-size: 14px;
 $links: #0069d6;
 $linksHover: darken($links, 10);
 
 // Grays
 $black: black;
 $grayDark: lighten($black, 20%);
-$gray: lighten($black, 50%);
-$grayLight: lighten($black, 75%);
-$grayLighter: lighten($black, 90%);
+$gray: lighten($black, 40%);
+$grayLight: lighten($black, 60%);
+$grayLighter: lighten($black, 80%);
 $white: white;
 
 // Accent Colors

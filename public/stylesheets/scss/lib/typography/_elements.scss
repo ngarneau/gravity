@@ -21,7 +21,7 @@ ol {
 
 ul {
 	margin-bottom: $baseline;
-	list-style:disc;
+	list-style: disc;
 	li {
 		margin-bottom: $baseline / 4;
 		margin-left: 14px;
@@ -75,7 +75,6 @@ del {
 a {
 	color: $links;
 	text-decoration: none;
-	@include transition;
 	cursor: pointer;
 }
 
