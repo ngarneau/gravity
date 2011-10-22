@@ -17,6 +17,7 @@ and (max-width : 480px){
 	
 	@include column_reset;
 	.container{width:320px;}
+	img {max-width:320px;}
 	
 }
 

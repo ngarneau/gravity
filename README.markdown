@@ -3,7 +3,7 @@
 Creative Commons (cc) Attribution 3.0
 http://GravityFramework.com
 
-Gravity is a framework for building better websites. It's modular nature means you can choose to use as little or as much as you like. It will help you rapidly prototype rock solid websites that work in all web browsers. 
+Gravity is a framework for building better responsive websites. It's modular nature means you can choose to use as little or as much as you like. It will help you rapidly prototype rock solid websites that work in all web browsers. 
 
 Set all your defaults in settings.scss.
 
@@ -37,7 +37,7 @@ Set all your defaults in settings.scss.
 + Transform
 + Transition
 
-# Structure and Grid Mixins
+# Structural and grid mixins
 
 ### Column Reset
 

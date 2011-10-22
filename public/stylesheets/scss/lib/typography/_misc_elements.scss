@@ -1,0 +1,88 @@
+/*
+Useful defaults
+*/
+
+::selection {
+	background: red;
+	color: white;
+}
+::-moz-selection {
+	background: red;
+	color: white;
+}
+
+img::selection {
+	background: transparent;
+}
+img::-moz-selection {
+	background: transparent;
+}
+
+body {
+	-webkit-tap-highlight-color: rgba(255,0,0, 0.62);
+}
+
+/* Misc Element Styles */
+
+abbr, acronym {
+	border-bottom: 1px dotted black;
+}
+
+address {
+	font-style: italic;
+}
+
+del {
+	color: black;
+}
+
+blockquote {
+	display: block;
+	font-weight: bold;
+	border-left: 4px solid #eeeeee;
+	padding: ($baseline*2) $baseline;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: serif;
+	font-style: italic;
+	color: $grayDark;
+	line-height: 30px;
+	margin: $baseline 0;
+}
+
+pre, code {
+	margin: 10px 0;
+	white-space: pre;
+}
+
+pre, code, tt {
+	font: $mono;
+	line-height: 1.5;
+	padding: 0 3px 2px;
+	background: #FFFFEE;
+}
+
+q {
+	font-style: italic;
+	font-weight: bold;
+	font-family: $serif;
+}
+
+cite {
+	display: block;
+	font-weight: bold;
+}
+
+figcaption {
+	display: block;
+	font-weight: bold;
+	font-style: italic;
+}
+
+small {
+	font-size: $font-size - 3;
+}
+
+strong {
+	font-weight: bold;
+}

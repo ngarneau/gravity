@@ -8,11 +8,11 @@
  *-------------------------------------------------------------- */
 /* normalize.css 2011-09-22T17:42 UTC - http://github.com/necolas/normalize.css */
 /* =============================================================================
-   HTML5 display definitions
-   ========================================================================== */
+HTML5 display definitions
+========================================================================== */
 /*
- * Corrects block display not defined in IE6/7/8/9 & FF3
- */
+* Corrects block display not defined in IE6/7/8/9 & FF3
+*/
 article,
 aside,
 details,
@@ -26,8 +26,8 @@ section {
   display: block; }
 
 /*
- * Corrects inline-block display not defined in IE6/7/8/9 & FF3
- */
+* Corrects inline-block display not defined in IE6/7/8/9 & FF3
+*/
 audio,
 canvas,
 video {
@@ -36,28 +36,28 @@ video {
   *zoom: 1; }
 
 /*
- * Prevents modern browsers from displaying 'audio' without controls
- */
+* Prevents modern browsers from displaying 'audio' without controls
+*/
 audio:not([controls]) {
   display: none; }
 
 /*
- * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
- * Known issue: no IE6 support
- */
+* Addresses styling for 'hidden' attribute not present in IE7/8/9,FF3,S4
+* Known issue:no IE6 support
+*/
 [hidden] {
   display: none; }
 
 /* =============================================================================
-   Base
-   ========================================================================== */
+Base
+========================================================================== */
 /*
- * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
- *    http://clagnut.com/blog/348/#c790
- * 2. Keeps page centred in all browsers regardless of content height
- * 3. Prevents iOS text size adjust after orientation change, without disabling user zoom
- *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
- */
+* 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+* http://clagnut.com/blog/348/#c790
+* 2. Keeps page centred in all browsers regardless of content height
+* 3. Prevents iOS text size adjust after orientation change,without disabling user zoom
+* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+*/
 html {
   font-size: 100%;
   /* 1 */
@@ -69,14 +69,14 @@ html {
   /* 3 */ }
 
 /*
- * Addresses margins handled incorrectly in IE6/7
- */
+* Addresses margins handled incorrectly in IE6/7
+*/
 body {
   margin: 0; }
 
 /* 
- * Addresses font-family inconsistency between 'textarea' and other form elements.
- */
+* Addresses font-family inconsistency between 'textarea' and other form elements.
+*/
 body,
 button,
 input,
@@ -85,8 +85,8 @@ textarea {
   font-family: sans-serif; }
 
 /* =============================================================================
-   Links
-   ========================================================================== */
+Links
+========================================================================== */
 a {
   color: #00e; }
 
@@ -94,30 +94,30 @@ a:visited {
   color: #551a8b; }
 
 /*
- * Addresses outline displayed oddly in Chrome
- */
+* Addresses outline displayed oddly in Chrome
+*/
 a:focus {
   outline: thin dotted; }
 
 /*
- * Improves readability when focused and also mouse hovered in all browsers
- * people.opera.com/patrickl/experiments/keyboard/test
- */
+* Improves readability when focused and also mouse hovered in all browsers
+* people.opera.com/patrickl/experiments/keyboard/test
+*/
 a:hover,
 a:active {
   outline: 0; }
 
 /* =============================================================================
-   Typography
-   ========================================================================== */
+Typography
+========================================================================== */
 /*
- * Addresses styling not present in IE7/8/9, S5, Chrome
- */
+* Addresses styling not present in IE7/8/9,S5,Chrome
+*/
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /*
- * Addresses style set to 'bolder' in FF3/4, S4/5, Chrome
+* Addresses style set to 'bolder' in FF3/4,S4/5,Chrome
 */
 b,
 strong {
@@ -127,42 +127,42 @@ blockquote {
   margin: 1em 40px; }
 
 /*
- * Addresses styling not present in S5, Chrome
- */
+* Addresses styling not present in S5,Chrome
+*/
 dfn {
   font-style: italic; }
 
 /*
- * Addresses styling not present in IE6/7/8/9
- */
+* Addresses styling not present in IE6/7/8/9
+*/
 mark {
   background: #ff0;
   color: #000; }
 
 /*
- * Corrects font family set oddly in IE6, S4/5, Chrome
- * en.wikipedia.org/wiki/User:Davidgothberg/Test59
- */
+* Corrects font family set oddly in IE6,S4/5,Chrome
+* en.wikipedia.org/wiki/User:Davidgothberg/Test59
+*/
 pre,
 code,
 kbd,
 samp {
-  font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  font-family: monospace,serif;
+  _font-family: 'courier new',monospace;
   font-size: 1em; }
 
 /*
- * Improves readability of pre-formatted text in all browsers
- */
+* Improves readability of pre-formatted text in all browsers
+*/
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
 /*
- * 1. Addresses CSS quotes not supported in IE6/7
- * 2. Addresses quote property not supported in S4
- */
+* 1. Addresses CSS quotes not supported in IE6/7
+* 2. Addresses quote property not supported in S4
+*/
 /* 1 */
 q {
   quotes: none; }
@@ -177,9 +177,9 @@ small {
   font-size: 75%; }
 
 /*
- * Prevents sub and sup affecting line-height in all browsers
- * gist.github.com/413930
- */
+* Prevents sub and sup affecting line-height in all browsers
+* gist.github.com/413930
+*/
 sub,
 sup {
   font-size: 75%;
@@ -194,8 +194,8 @@ sub {
   bottom: -0.25em; }
 
 /* =============================================================================
-   Lists
-   ========================================================================== */
+Lists
+========================================================================== */
 ul,
 ol {
   margin: 1em 0;
@@ -210,13 +210,13 @@ nav ol {
   list-style-image: none; }
 
 /* =============================================================================
-   Embedded content
-   ========================================================================== */
+Embedded content
+========================================================================== */
 /*
- * 1. Removes border when inside 'a' element in IE6/7/8/9, FF3
- * 2. Improves image quality when scaled in IE7
- *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
- */
+* 1. Removes border when inside 'a' element in IE6/7/8/9,FF3
+* 2. Improves image quality when scaled in IE7
+* code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+*/
 img {
   border: 0;
   /* 1 */
@@ -224,41 +224,41 @@ img {
   /* 2 */ }
 
 /*
- * Corrects overflow displayed oddly in IE9 
- */
+* Corrects overflow displayed oddly in IE9 
+*/
 svg:not(:root) {
   overflow: hidden; }
 
 /* =============================================================================
-   Figures
-   ========================================================================== */
+Figures
+========================================================================== */
 /*
- * Addresses margin not present in IE6/7/8/9, S5, O11
- */
+* Addresses margin not present in IE6/7/8/9,S5,O11
+*/
 figure {
   margin: 0; }
 
 /* =============================================================================
-   Forms
-   ========================================================================== */
+Forms
+========================================================================== */
 /*
- * Corrects margin displayed oddly in IE6/7
- */
+* Corrects margin displayed oddly in IE6/7
+*/
 form {
   margin: 0; }
 
 /*
- * Define consistent border, margin, and padding
- */
+* Define consistent border,margin,and padding
+*/
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
 /*
- * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects alignment displayed oddly in IE6/7
- */
+* 1. Corrects color not being inherited in IE6/7/8/9
+* 2. Corrects alignment displayed oddly in IE6/7
+*/
 legend {
   border: 0;
   /* 1 */
@@ -266,10 +266,10 @@ legend {
   /* 2 */ }
 
 /*
- * 1. Corrects font size not being inherited in all browsers
- * 2. Addresses margins set differently in IE6/7, FF3/4, S5, Chrome
- * 3. Improves appearance and consistency in all browsers
- */
+* 1. Corrects font size not being inherited in all browsers
+* 2. Addresses margins set differently in IE6/7,FF3/4,S5,Chrome
+* 3. Improves appearance and consistency in all browsers
+*/
 button,
 input,
 select,
@@ -284,19 +284,19 @@ textarea {
   /* 3 */ }
 
 /*
- * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
- */
+* Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+*/
 button,
 input {
   line-height: normal;
   /* 1 */ }
 
 /*
- * 1. Improves usability and consistency of cursor style between image-type 'input' and others
- * 2. Corrects inability to style clickable 'input' types in iOS
- * 3. Corrects inner spacing displayed oddly in IE7 without effecting normal text inputs
- *    Known issue: inner spacing remains in IE6
- */
+* 1. Improves usability and consistency of cursor style between image-type 'input' and others
+* 2. Corrects inability to style clickable 'input' types in iOS
+* 3. Corrects inner spacing displayed oddly in IE7 without effecting normal text inputs
+* Known issue:inner spacing remains in IE6
+*/
 button,
 input[type="button"],
 input[type="reset"],
@@ -309,9 +309,9 @@ input[type="submit"] {
   /* 3 */ }
 
 /*
- * 1. Addresses box sizing set to content-box in IE8/9
- * 2. Addresses excess padding in IE8/9
- */
+* 1. Addresses box sizing set to content-box in IE8/9
+* 2. Addresses excess padding in IE8/9
+*/
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -320,9 +320,9 @@ input[type="radio"] {
   /* 2 */ }
 
 /*
- * 1. Addresses appearance set to searchfield in S5, Chrome
- * 2. Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof)
- */
+* 1. Addresses appearance set to searchfield in S5,Chrome
+* 2. Addresses box sizing set to border-box in S5,Chrome (include -moz to future-proof)
+*/
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -332,24 +332,24 @@ input[type="search"] {
   box-sizing: content-box; }
 
 /*
- * Corrects inner padding displayed oddly in S5, Chrome on OSX
- */
+* Corrects inner padding displayed oddly in S5,Chrome on OSX
+*/
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /*
- * Corrects inner padding and border displayed oddly in FF3/4
- * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
- */
+* Corrects inner padding and border displayed oddly in FF3/4
+* www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+*/
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
 /*
- * 1. Removes default vertical scrollbar in IE6/7/8/9
- * 2. Improves readability and alignment in all browsers
- */
+* 1. Removes default vertical scrollbar in IE6/7/8/9
+* 2. Improves readability and alignment in all browsers
+*/
 textarea {
   overflow: auto;
   /* 1 */
@@ -357,34 +357,14 @@ textarea {
   /* 2 */ }
 
 /* =============================================================================
-   Tables
-   ========================================================================== */
+Tables
+========================================================================== */
 /* 
- * Remove most spacing between table cells
- */
+* Remove most spacing between table cells
+*/
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-/*
-Useful defaults
-*/
-::selection {
-  background: red;
-  color: white; }
-
-::-moz-selection {
-  background: red;
-  color: white; }
-
-img::selection {
-  background: transparent; }
-
-img::-moz-selection {
-  background: transparent; }
-
-body {
-  -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62); }
 
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
   line-height: 20px;
@@ -394,6 +374,20 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
 
 p {
   margin-bottom: 20px; }
+
+img {
+  margin-bottom: 10px; }
+
+a {
+  color: #0069d6;
+  text-decoration: none;
+  cursor: pointer; }
+
+a:hover {
+  text-decoration: none; }
+
+ol, ul, dl {
+  padding: 0; }
 
 ol {
   margin-bottom: 20px;
@@ -425,6 +419,27 @@ dl {
   dl dd {
     margin-bottom: 10px; }
 
+/*
+Useful defaults
+*/
+::selection {
+  background: red;
+  color: white; }
+
+::-moz-selection {
+  background: red;
+  color: white; }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62); }
+
+/* Misc Element Styles */
 abbr, acronym {
   border-bottom: 1px dotted black; }
 
@@ -433,14 +448,6 @@ address {
 
 del {
   color: black; }
-
-a {
-  color: #0069d6;
-  text-decoration: none;
-  cursor: pointer; }
-
-a:hover {
-  text-decoration: none; }
 
 blockquote {
   display: block;
@@ -473,9 +480,6 @@ q {
 cite {
   display: block;
   font-weight: bold; }
-
-img {
-  margin-bottom: 10px; }
 
 figcaption {
   display: block;
@@ -796,7 +800,7 @@ optgroup {
   font-weight: normal; }
 
 button[type=submit], input[type='submit'] {
-  padding: 7px 12px;
+  padding: 10px 12px 7px 12px;
   text-align: center;
   font-weight: bold;
   -webkit-border-radius: 5px;
@@ -869,7 +873,7 @@ caption {
   display: inline-block;
   border: 1px solid #bfbfbf;
   text-align: center;
-  padding: 4px 12px;
+  padding: 8px 12px 4px 12px;
   margin: 0 10px 20px 0;
   min-width: 80px; }
   .button:hover, input.button:hover {
@@ -898,7 +902,7 @@ caption {
   display: inline-block;
   border: 1px solid #048ac2;
   text-align: center;
-  padding: 4px 12px;
+  padding: 8px 12px 4px 12px;
   margin: 0 10px 20px 0;
   min-width: 80px; }
   .button.main:hover {
@@ -927,7 +931,7 @@ caption {
   display: inline-block;
   border: 1px solid #872119;
   text-align: center;
-  padding: 4px 12px;
+  padding: 8px 12px 4px 12px;
   margin: 0 10px 20px 0;
   min-width: 80px; }
   .button.delete:hover {
@@ -1102,7 +1106,10 @@ and (max-width : 480px) {
     float: none; }
 
   .container {
-    width: 320px; } }
+    width: 320px; }
+
+  img {
+    max-width: 320px; } }
 /* iPhone 4 ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
