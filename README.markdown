@@ -1,27 +1,49 @@
 #Gravity Framework
-AUTHORS: Owain Lewis
-URL: Owainlewis.com
 
 Creative Commons (cc) Attribution 3.0
 http://GravityFramework.com
 
-A rock solid set of modular cross browser defaults for building websites.
+Gravity is a framework for building better websites. It's modular nature means you can choose to use as little or as much as you like. It will help you rapidly prototype rock solid websites that work in all web browsers. 
 
-Gravity is a powerful modular SCSS framework for building HTML5 websites. It uses SCSS and HAML in place of CSS and HTML5. Gravity does some basic setup work for you, giving you a rock solid starting point for your project and then gets out of your way. The modular nature of the framework means you can easily extend or remove elements you don't need. 
+Set all your defaults in settings.scss.
 
-##Features
+#Features
 
-+ Core CSS styling (reset styles, typography, baselines, grids)
-+ SASS Grid builder
-+ CSS3 Mixins
-+ HAML templates and index.html files already set up
-+ Media Queries built in and ready to go
++ Sensible and pretty default styles for all elements
++ Modular file structure for easy customization
++ Pretty form styles by default
++ Intelligent responsive grid system
++ SASS mixins for CSS3 
++ Media Queries baked in and ready to go
++ Pretty Rails flash messages
++ Table styles
++ CSS3 button style mixins
++ Typography that automatically adjusts to your baseline grid
 
-##Mixin Syntax
+# CSS3 Mixins
 
-Gravity comes with a wide range of useful CSS3 mixins. Tired of writing multiple lines of vendor specific CSS? You can now add cross browser CSS3 to your projects with one line:
++ Background-clip
++ Border-radius
++ Border-image
++ Box-shadow
++ Box-sizing
++ Columns
++ Font-face
++ Gradients
++ Opacity
++ Rotate
++ Scale
++ Text-shadow
++ Transform
++ Transition
 
-	@include border-radius(5px);
+# Structure and Grid Mixins
+
+### Column Reset
+
+This mixin will set all columns to block level and full width. It's main use is in creating stacked columns for mobile layouts.
+
+	@include column_reset();
 
 ## Install
 
@@ -30,7 +52,7 @@ Gravity comes with a wide range of useful CSS3 mixins. Tired of writing multiple
 	
 To start watching your SCSS files, run the following rake task
 
-	rake gravity:watch
+	rake watch
 
 =====================
 

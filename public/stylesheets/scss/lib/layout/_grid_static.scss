@@ -1,7 +1,6 @@
 //Grid
 
 $col_width: ($width - $gutters * ($columns - 1)) / $columns;
-
 $col_total_width: $col_width + $gutters;
 
 @mixin col($n: 1) {

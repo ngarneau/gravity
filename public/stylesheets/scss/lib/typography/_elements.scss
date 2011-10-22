@@ -1,3 +1,27 @@
+/*
+Useful defaults
+*/
+
+::selection {
+	background: red;
+	color: white;
+}
+::-moz-selection {
+	background: red;
+	color: white;
+}
+
+img::selection {
+	background: transparent;
+}
+img::-moz-selection {
+	background: transparent;
+}
+
+body {
+	-webkit-tap-highlight-color: rgba(255,0,0, 0.62);
+}
+
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
 	line-height: $baseline;
 	font-family: $sans;

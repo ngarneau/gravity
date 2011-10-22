@@ -1,0 +1,6 @@
+@mixin width ($cols:1) {
+  width: #{($cols * ($column + $gutter) - $gutter);
+}
+
+
+

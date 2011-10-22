@@ -1,0 +1,18 @@
+@import "lib/core";
+
+.container {
+	width: $width;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: hidden;
+}
+
+section {
+	@include block
+}
+
+//Media Queries
+@import "lib/layout/media_queries";
+
+
+
