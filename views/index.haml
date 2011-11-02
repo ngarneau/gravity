@@ -1,21 +1,200 @@
-!!!5
-%html{:class => "no-js", :lang => "en"}
-  %head
-    %meta{:charset => "utf-8"}
-    %title="My Project"
-    %meta{:content => "", :name => "description"}
-    %meta{:content => "", :name => "author"}
-    %script{:src => "http://html5shim.googlecode.com/svn/trunk/html5.js"}
-    %meta{:name => "viewport", :content => ""}
-    %link{:rel => "stylesheet", :href => "public/stylesheets/css/style.css", :type => "text/css"}
+%h1.center Gravity CSS Test
+%section
+	%h3 Paragraphs
+	.span-5
+		%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-  %body
-    .container
-      %h1.center Gravity CSS
-      %p.center Run rake gravity:watch in the terminal to start watching your SASS. 
+		%pre
+			%code This is a code block
 
-    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"}
-    %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.7/underscore-min.js"}
-    %script{:src => "http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.3/backbone-min.js"}
+	.span-6
+		%p
+			%b Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		%p
+			%a This is a line
+		%p
+			%i Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+	.span-5
+		%p 
+			%small Small text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+		%q Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+%section
+	.span-6
+		%h1 Misc Elements
+		%p 
+			%del Strike through
+	.span-10
+		%blockquote Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  styles. 
+
+%section
+
+	%div.error Error message
+	%div.notice Notice
+	%div.success Success message
+
+%section
+	.span-5
+		%img{:src => "http://placehold.it/336x250"}
+
+	.span-6
+		%img{:src => "http://placehold.it/408x250"}
+
+	.span-5
+		%img{:src => "http://placehold.it/336x250"}
+
+%section
+	%h3 Headings
+	.span-5
+		%h1 Heading 1
+		%h2 Heading 2
+		%h3 Heading 3
+		%h4 Heading 4
+		%h5 Heading 5
+		%h6 Heading 6
+	.span-6
+		%h1 Lorem ipsum dolor sit amet
+		%h2 Lorem ipsum dolor sit amet
+		%h3 Lorem ipsum dolor sit amet
+		%h4 Lorem ipsum dolor sit amet
+		%h5 Lorem ipsum dolor sit amet
+		%h6 Lorem ipsum dolor sit amet
+	.span-5
+		%h1 Heading 1
+		%hr
+		%h2 Heading 2
+		%hr
+		%h3 Heading 3
+		%hr
+		%h4 Heading 4
+		%hr
+		%h5 Heading 5
+		%hr
+		%h6 Heading 6
+		%hr
+
+%section
+	.span-6
+		%h3 Forms
+		%p Default forms. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+		%ul.input-list
+			%li
+				%input(type="radio") Radio button 1
+			%li
+				%input(type="radio") Another
+			%li 
+				%input(type="radio") Radio 3
+
+		%label Password input
+		%input(type="password" value="password")
+
+		%input(type="search") 
 
 
+	.span-10
+		%form
+			%label Text input
+			%input(type="text")
+
+			%label Email input
+			%input(type="email")
+
+			%label Select
+			%select
+				%option First
+				%option Second
+				%option Third
+
+			%input.button{:type => "submit"}
+
+		%h3 Stacked Checkboxes
+		%ul.input-list
+			%li
+				%input(type="checkbox") Checkbox
+			%li 
+				%input(type="checkbox") List item
+			%li
+				%input(type="checkbox") Another item
+
+		%label Textarea
+		%textarea
+
+%section
+	%h3 Lists
+	.span-4
+		%ul
+			%li Some long text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			%li Unordered list test
+			%li 
+				Some item
+				%ul
+					%li Unordered list test
+					%li Another item
+					%li Sub item
+					%li Final list item
+	.span-4
+		%ol 
+			%li Item 1
+			%li 
+				Nested ol
+				%ol
+					%li Nested item
+					%li Another one
+					%li Item 2
+					%li 
+						Item 3
+						%ul
+							%li Sub item
+
+	.span-4
+		%dl
+			%dt Lorem ipsum dolor sit amet, consectetur adipisicing elit adipisicing elit adipisicing elit
+			%dd Item 1
+			%dd Some title
+			%dd Item 2
+			%dd Item 3
+
+	.span-4
+		%ul.unstyled
+			%li Unstyled items
+			%li Another unstyled list item
+			%li 
+				Some text
+				%ul
+					%li Sub item in list
+					%li Another sub item
+
+%section
+	%h3 Tabular Data
+	.span-16
+		%table
+			%thead
+				%tr
+					%th Name
+					%th Address
+					%th Email
+				%tr
+					%td Lorem ipsum
+					%td Lorem ipsum
+					%td Lorem ipsum
+				%tr
+					%td Lorem ipsum
+					%td Lorem ipsum
+					%td Lorem ipsum
+
+				%tr
+					%td Lorem ipsum
+					%td Lorem ipsum
+					%td Lorem ipsum
+				%tr
+					%td Lorem ipsum
+					%td Lorem ipsum
+					%td Lorem ipsum
+
+%section
+	%h3 Buttons
+	%a.button Submit
+	%a.button.delete Delete
+	%a.button.main Default button

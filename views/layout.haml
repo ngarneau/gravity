@@ -1,0 +1,10 @@
+!!! 5
+%html
+	%head
+		%title 
+			= @title || 'Compass Framework'
+		%link{:rel => "stylesheet", :href => "/stylesheets/style.css", :type => "text/css", :media => "all"}
+		%script{:src => "http://html5shim.googlecode.com/svn/trunk/html5.js"}
+	%body
+		.container
+			= yield
