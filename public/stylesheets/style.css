@@ -686,9 +686,9 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-1 {
   float: left;
-  width: 48px;
+  width: 4.255%;
   margin-right: 0;
-  margin-right: 24px;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-1:last-child {
@@ -698,8 +698,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-2 {
   float: left;
-  width: 120px;
-  margin-right: 24px;
+  width: 10.638%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-2:last-child {
@@ -709,8 +709,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-3 {
   float: left;
-  width: 192px;
-  margin-right: 24px;
+  width: 17.021%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-3:last-child {
@@ -720,8 +720,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-4 {
   float: left;
-  width: 264px;
-  margin-right: 24px;
+  width: 23.404%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-4:last-child {
@@ -731,8 +731,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-5 {
   float: left;
-  width: 336px;
-  margin-right: 24px;
+  width: 29.787%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-5:last-child {
@@ -742,8 +742,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-6 {
   float: left;
-  width: 408px;
-  margin-right: 24px;
+  width: 36.17%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-6:last-child {
@@ -753,8 +753,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-7 {
   float: left;
-  width: 480px;
-  margin-right: 24px;
+  width: 42.553%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-7:last-child {
@@ -764,8 +764,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-8 {
   float: left;
-  width: 552px;
-  margin-right: 24px;
+  width: 48.936%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-8:last-child {
@@ -775,8 +775,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-9 {
   float: left;
-  width: 624px;
-  margin-right: 24px;
+  width: 55.319%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-9:last-child {
@@ -786,8 +786,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-10 {
   float: left;
-  width: 696px;
-  margin-right: 24px;
+  width: 61.702%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-10:last-child {
@@ -797,8 +797,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-11 {
   float: left;
-  width: 768px;
-  margin-right: 24px;
+  width: 68.085%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-11:last-child {
@@ -808,8 +808,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-12 {
   float: left;
-  width: 840px;
-  margin-right: 24px;
+  width: 74.468%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-12:last-child {
@@ -819,8 +819,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-13 {
   float: left;
-  width: 912px;
-  margin-right: 24px;
+  width: 80.851%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-13:last-child {
@@ -830,8 +830,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-14 {
   float: left;
-  width: 984px;
-  margin-right: 24px;
+  width: 87.234%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-14:last-child {
@@ -841,8 +841,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-15 {
   float: left;
-  width: 1056px;
-  margin-right: 24px;
+  width: 93.617%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-15:last-child {
@@ -852,8 +852,8 @@ h6 {
 /* line 23, ../sass/lib/layout/_grid_static.scss */
 .span-16 {
   float: left;
-  width: 1128px;
-  margin-right: 24px;
+  width: 100%;
+  margin-right: 2.128%;
 }
 /* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-16:last-child {
@@ -1339,7 +1339,7 @@ div.success a, #flash_success a {
 
 /* line 3, ../sass/style.scss */
 .container {
-  width: 1128px;
+  width: 90%;
   margin: 0 auto;
   padding: 20px;
   overflow: hidden;
@@ -1481,12 +1481,12 @@ and (max-width : 480px) {
 
   /* line 19, ../sass/lib/layout/_media_queries.scss */
   .container {
-    width: 320px;
+    width: 90%;
   }
 
   /* line 20, ../sass/lib/layout/_media_queries.scss */
   img {
-    max-width: 320px;
+    max-width: 90%;
   }
 }
 /* iPhone 4 ----------- */
@@ -1614,7 +1614,7 @@ and (max-width : 1024px) {
 
   /* line 40, ../sass/lib/layout/_media_queries.scss */
   .container {
-    width: 768px;
+    width: 90%;
   }
 }
 /* ============================= */
