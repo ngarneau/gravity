@@ -486,57 +486,57 @@ a:hover {
   text-decoration: none;
 }
 
-/* line 1, ../sass/lib/typography/_lists.scss */
+/* line 1, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 ol, ul, dl {
   padding: 0;
 }
 
-/* line 3, ../sass/lib/typography/_lists.scss */
+/* line 3, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 ol {
   margin-bottom: 20px;
   margin-left: 20px;
 }
-/* line 7, ../sass/lib/typography/_lists.scss */
+/* line 7, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 ol ol {
   margin-bottom: 0;
 }
 
-/* line 13, ../sass/lib/typography/_lists.scss */
+/* line 13, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 ul {
   margin-bottom: 20px;
   list-style: disc;
 }
-/* line 16, ../sass/lib/typography/_lists.scss */
+/* line 16, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 ul li {
   margin-bottom: 5px;
   margin-left: 14px;
 }
-/* line 20, ../sass/lib/typography/_lists.scss */
+/* line 20, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 ul li ul {
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* line 30, ../sass/lib/typography/_lists.scss */
+/* line 30, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 ul.unstyled {
   list-style: none;
 }
-/* line 32, ../sass/lib/typography/_lists.scss */
+/* line 32, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 ul.unstyled li {
   margin-left: 0;
 }
 
-/* line 39, ../sass/lib/typography/_lists.scss */
+/* line 39, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 dl {
   margin-bottom: 20px;
 }
-/* line 42, ../sass/lib/typography/_lists.scss */
+/* line 42, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 dl dt {
   font-weight: bold;
   margin-bottom: 10px;
 }
-/* line 47, ../sass/lib/typography/_lists.scss */
+/* line 47, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_lists.scss */
 dl dd {
   margin-bottom: 10px;
 }
@@ -544,50 +544,50 @@ dl dd {
 /*
 Useful defaults
 */
-/* line 5, ../sass/lib/typography/_misc_elements.scss */
+/* line 5, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 ::selection {
   background: red;
   color: white;
 }
 
-/* line 9, ../sass/lib/typography/_misc_elements.scss */
+/* line 9, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 ::-moz-selection {
   background: red;
   color: white;
 }
 
-/* line 14, ../sass/lib/typography/_misc_elements.scss */
+/* line 14, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 img::selection {
   background: transparent;
 }
 
-/* line 17, ../sass/lib/typography/_misc_elements.scss */
+/* line 17, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 img::-moz-selection {
   background: transparent;
 }
 
-/* line 21, ../sass/lib/typography/_misc_elements.scss */
+/* line 21, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 body {
   -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62);
 }
 
 /* Misc Element Styles */
-/* line 27, ../sass/lib/typography/_misc_elements.scss */
+/* line 27, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 abbr, acronym {
   border-bottom: 1px dotted black;
 }
 
-/* line 31, ../sass/lib/typography/_misc_elements.scss */
+/* line 31, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 address {
   font-style: italic;
 }
 
-/* line 35, ../sass/lib/typography/_misc_elements.scss */
+/* line 35, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 del {
   color: black;
 }
 
-/* line 39, ../sass/lib/typography/_misc_elements.scss */
+/* line 39, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 blockquote {
   display: block;
   font-weight: bold;
@@ -602,13 +602,13 @@ blockquote {
   margin: 20px 0;
 }
 
-/* line 53, ../sass/lib/typography/_misc_elements.scss */
+/* line 53, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 pre, code {
   margin: 10px 0;
   white-space: pre;
 }
 
-/* line 58, ../sass/lib/typography/_misc_elements.scss */
+/* line 58, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 pre, code, tt {
   font: "Andale Mono WT", Monaco, "Courier New", Courier, monospace;
   line-height: 1.5;
@@ -616,32 +616,32 @@ pre, code, tt {
   background: #FFFFEE;
 }
 
-/* line 65, ../sass/lib/typography/_misc_elements.scss */
+/* line 65, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 q {
   font-style: italic;
   font-weight: bold;
   font-family: Georgia, serif;
 }
 
-/* line 71, ../sass/lib/typography/_misc_elements.scss */
+/* line 71, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 cite {
   display: block;
   font-weight: bold;
 }
 
-/* line 76, ../sass/lib/typography/_misc_elements.scss */
+/* line 76, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 figcaption {
   display: block;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 82, ../sass/lib/typography/_misc_elements.scss */
+/* line 82, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 small {
   font-size: 0.786em;
 }
 
-/* line 86, ../sass/lib/typography/_misc_elements.scss */
+/* line 86, /Users/Nicolas/Sites/gravity/public/sass/lib/typography/_misc_elements.scss */
 strong {
   font-weight: bold;
 }
