@@ -42,7 +42,7 @@ blockquote {
 	border-left: 4px solid #eeeeee;
 	padding: ($baseline*2) $baseline;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: typo(30);
 	font-family: serif;
 	font-style: italic;
 	color: $grayDark;
@@ -80,7 +80,7 @@ figcaption {
 }
 
 small {
-	font-size: $font-size - 3;
+	font-size: typo($font-size - 3);
 }
 
 strong {

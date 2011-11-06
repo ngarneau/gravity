@@ -1,16 +1,21 @@
-body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
+body{
+	font-size: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {
 	line-height: $baseline;
 	font-family: $sans;
 	color: $gray;
-	font-size: 14px;
+	font-size: typo(14,$font-size);
 }
 
 p {
 	margin-bottom: $baseline;
 }
 
-img {
+img, embed, object, video {
 	margin-bottom: 10px;
+	max-width: 100%;
 }
 
 a {

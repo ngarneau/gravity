@@ -451,31 +451,37 @@ table {
 }
 
 /* line 1, ../sass/lib/typography/_elements.scss */
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
+body {
+  font-size: 100%;
+}
+
+/* line 5, ../sass/lib/typography/_elements.scss */
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
   line-height: 20px;
   font-family: "Myriad Pro", Myriad, Helvetica, Arial, sans serif;
   color: #666666;
-  font-size: 14px;
+  font-size: 1em;
 }
 
-/* line 8, ../sass/lib/typography/_elements.scss */
+/* line 12, ../sass/lib/typography/_elements.scss */
 p {
   margin-bottom: 20px;
 }
 
-/* line 12, ../sass/lib/typography/_elements.scss */
-img {
+/* line 16, ../sass/lib/typography/_elements.scss */
+img, embed, object, video {
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
-/* line 16, ../sass/lib/typography/_elements.scss */
+/* line 21, ../sass/lib/typography/_elements.scss */
 a {
   color: #0069d6;
   text-decoration: none;
   cursor: pointer;
 }
 
-/* line 22, ../sass/lib/typography/_elements.scss */
+/* line 27, ../sass/lib/typography/_elements.scss */
 a:hover {
   text-decoration: none;
 }
@@ -588,7 +594,7 @@ blockquote {
   border-left: 4px solid #eeeeee;
   padding: 40px 20px;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2.143em;
   font-family: serif;
   font-style: italic;
   color: #333333;
@@ -632,7 +638,7 @@ figcaption {
 
 /* line 82, ../sass/lib/typography/_misc_elements.scss */
 small {
-  font-size: 11px;
+  font-size: 0.786em;
 }
 
 /* line 86, ../sass/lib/typography/_misc_elements.scss */
@@ -649,218 +655,218 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 7, ../sass/lib/typography/_headings.scss */
 h1 {
-  font-size: 28px;
+  font-size: 2em;
   line-height: 40px;
 }
 
 /* line 12, ../sass/lib/typography/_headings.scss */
 h2 {
-  font-size: 24px;
+  font-size: 1.714em;
   line-height: 20px;
 }
 
 /* line 17, ../sass/lib/typography/_headings.scss */
 h3 {
-  font-size: 20px;
+  font-size: 1.286em;
   line-height: 20px;
 }
 
 /* line 22, ../sass/lib/typography/_headings.scss */
 h4 {
-  font-size: 16px;
+  font-size: 1.143em;
   line-height: 20px;
 }
 
 /* line 27, ../sass/lib/typography/_headings.scss */
 h5 {
-  font-size: 14px;
+  font-size: 1em;
   line-height: 20px;
 }
 
 /* line 32, ../sass/lib/typography/_headings.scss */
 h6 {
-  font-size: 14px;
+  font-size: 1em;
   line-height: 20px;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-1 {
   float: left;
   width: 4.255%;
   margin-right: 0;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-1:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-2 {
   float: left;
   width: 10.638%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-2:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-3 {
   float: left;
   width: 17.021%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-3:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-4 {
   float: left;
   width: 23.404%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-4:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-5 {
   float: left;
   width: 29.787%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-5:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-6 {
   float: left;
   width: 36.17%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-6:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-7 {
   float: left;
   width: 42.553%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-7:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-8 {
   float: left;
   width: 48.936%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-8:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-9 {
   float: left;
   width: 55.319%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-9:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-10 {
   float: left;
   width: 61.702%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-10:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-11 {
   float: left;
   width: 68.085%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-11:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-12 {
   float: left;
   width: 74.468%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-12:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-13 {
   float: left;
   width: 80.851%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-13:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-14 {
   float: left;
   width: 87.234%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-14:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-15 {
   float: left;
   width: 93.617%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-15:last-child {
   margin-right: 0;
 }
 
-/* line 23, ../sass/lib/layout/_grid_static.scss */
+/* line 25, ../sass/lib/layout/_grid_static.scss */
 .span-16 {
   float: left;
   width: 100%;
   margin-right: 2.128%;
 }
-/* line 25, ../sass/lib/layout/_grid_static.scss */
+/* line 27, ../sass/lib/layout/_grid_static.scss */
 .span-16:last-child {
   margin-right: 0;
 }
 
-/* line 28, ../sass/lib/layout/_grid_static.scss */
+/* line 30, ../sass/lib/layout/_grid_static.scss */
 .last {
   margin-right: 0 !important;
 }
@@ -1365,7 +1371,6 @@ Reset all columns to display as stacked elements i.e for mobile
 /* ! Layout for 320 Mobile. 4 Columns */
 /* ============================= */
 @media only screen
-and (min-width : 320px)
 and (max-width : 480px) {
   /* line 7, ../sass/lib/layout/_layout_mixins.scss */
   .span-1 {
@@ -1479,14 +1484,9 @@ and (max-width : 480px) {
     float: none;
   }
 
-  /* line 19, ../sass/lib/layout/_media_queries.scss */
+  /* line 17, ../sass/lib/layout/_media_queries.scss */
   .container {
     width: 90%;
-  }
-
-  /* line 20, ../sass/lib/layout/_media_queries.scss */
-  img {
-    max-width: 90%;
   }
 }
 /* iPhone 4 ----------- */
@@ -1612,7 +1612,7 @@ and (max-width : 1024px) {
     float: none;
   }
 
-  /* line 40, ../sass/lib/layout/_media_queries.scss */
+  /* line 36, ../sass/lib/layout/_media_queries.scss */
   .container {
     width: 90%;
   }

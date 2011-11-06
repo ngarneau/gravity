@@ -5,31 +5,31 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 28px;
+	font-size: typo(28,$font-size);
 	line-height: $baseline * 2;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: typo(24, $font-size);
 	line-height: $baseline;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: typo(18, $font-size);
 	line-height: $baseline;
 }
 
 h4 {
-	font-size: 16px;
+	font-size: typo(16, $font-size);
 	line-height: $baseline;
 }
 
 h5 {
-	font-size: 14px;
+	font-size: typo(14, $font-size);
 	line-height: $baseline;
 }
 
 h6 {
-	font-size: 14px;
+	font-size: typo(14, $font-size);
 	line-height: $baseline;
 }

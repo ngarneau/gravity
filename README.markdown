@@ -13,7 +13,7 @@ Set all your defaults in settings.scss.
 + Modular file structure for easy customization
 + Pretty form styles by default
 + Intelligent responsive grid system
-+ SASS mixins for CSS3 
++ SASS mixins for CSS3
 + Media Queries baked in and ready to go
 + Pretty Rails flash messages
 + Table styles
