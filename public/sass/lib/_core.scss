@@ -27,9 +27,7 @@
 
 //Layout
 
-@import "layout/grid_static"; 
-//use responsive for fluid grids
-//@import "layout/grid_fluid"; 
+@import "layout/grid"; // called grid only, cause its flexible all the way :)
 
 //The files below are helpers that can be removed if not required
 
