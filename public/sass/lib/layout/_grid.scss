@@ -12,7 +12,6 @@ $col_total_width: $col_width + $gutters;
 
 @mixin buildColumn($n: 1) {
 	$static-width : $n * $col_width + ($n - 1) * $gutters;
-	@debug span #{$n} $static-width;
   width: ($n * $col_width + ($n - 1) * $gutters) / $width * 100%;
   @if $n == 1 {
     @include last; }
@@ -21,7 +20,11 @@ $col_total_width: $col_width + $gutters;
   @else {
     margin-right: $gutters / $width * 100%; } }
 
+$widths : ();
+
 @for $i from 1 through $columns {
+	$int : ($i * $col_width + ($i - 1) * $gutters);
+	$widths: join($widths, $int);
   .span-#{$i} {
     @include col($i);
     &:last-child {
